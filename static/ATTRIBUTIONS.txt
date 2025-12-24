@@ -1,0 +1,19 @@
+Album: In This Place There Is No End
+Artist: Discontinued
+Source: Archive.org Netlabels / https://archive.org/details/enrmp477_in_this_place_there_is_no_end_-_discontinued
+License: CC BY-NC-SA 4.0 / https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Album: Future in Motion
+Artist: Orghanon
+Source: Archive.org Netlabels / https://archive.org/details/mhrk406
+License: CC BY-NC 4.0 /https://creativecommons.org/licenses/by-nc/4.0/
+
+Album: Space Music
+Artist: Dan Lizard
+Source: Archive.org Netlabel / https://archive.org/details/spacemusic_20180831
+License: CC BY-NC-SA 4.0 / https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Album: Eelahoo
+Artist: Fascinating Earthbound Objects
+Source: Archive.org Netlabel / https://archive.org/details/Eelahoo/
+License: CC BY-NC-SA 4.0 / https://creativecommons.org/licenses/by-nc-sa/4.0/

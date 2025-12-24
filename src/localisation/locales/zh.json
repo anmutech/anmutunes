@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "名称",
+      "description": "描述",
+      "track_one": "曲目",
+      "track_other": "曲目",
+      "title": "标题",
+      "artist_one": "艺术家",
+      "artist_other": "艺术家",
+      "composer_one": "作曲家",
+      "composer_other": "作曲家",
+      "album_one": "专辑",
+      "album_other": "专辑",
+      "albumartist": "专辑艺术家",
+      "genre_one": "类型",
+      "genre_other": "类型",
+      "cdnumber": "CD #",
+      "cdnumber_long": "CD 编号",
+      "tracknumber": "曲目 #",
+      "tracknumber_long": "标题 编号",
+      "tracklength": "时长",
+      "playlist_one": "播放列表",
+      "playlist_other": "播放列表",
+      "year": "年份",
+      "release": "发布",
+      "release_long": "发行日期",
+      "added": "添加的",
+      "cover": "封面",
+      "emptylist": "清空列表",
+      "listisempty": "此列表为空",
+      "newplaylist": "新播放列表",
+      "mediapath": "媒体路径",
+      "present": "现在",
+      "save": "保存",
+      "abort": "取消",
+      "yes": "是",
+      "no": "否",
+      "close": "关闭",
+      "delete": "删除",
+      "system": "系统"
+    },
+    "viewselect": {
+      "recents": "最近添加的",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "背景",
+      "background_active": "活动背景",
+      "background_hover": "交互背景",
+      "background_button": "按钮背景",
+      "border": "边框",
+      "accent": "输入强调",
+      "warn": "警告",
+      "text": "文本",
+      "text_dim": "浅色文本",
+      "text_highlight": "高亮文本",
+      "shadow": "阴影"
+    },
+    "contextmenu": {
+      "play": "播放",
+      "playrandom": "随机播放",
+      "playnext": "下一个",
+      "addqueue": "加入队列",
+      "addplaylist": "加入播放列表",
+      "showartist": "显示艺术家",
+      "showgenre": "显示类型",
+      "showalbum": "显示专辑",
+      "showcomposer": "显示作曲家",
+      "showplaylist": "显示播放列表",
+      "showlyrics": "显示歌词",
+      "openpath": "打开包含路径",
+      "showsimilar": "显示相似",
+      "rating": "评分",
+      "info": "信息",
+      "edit": "编辑",
+      "delete": "删除",
+      "extractcover": "提取封面"
+    },
+    "edit": {
+      "cannotedit": "此数据无法编辑",
+      "editalbum": "编辑专辑",
+      "editartist": "编辑艺术家",
+      "editcomposer": "编辑作曲家",
+      "editgenre": "编辑类别",
+      "editplaylist": "编辑播放列表",
+      "newplaylist": "新播放列表",
+      "edittrack": "编辑曲目",
+      "sort_album": "排序标题"
+    },
+    "import": {
+      "importlibrary": "导入库？"
+    },
+    "mediapath": {
+      "currentmediapath": "当前媒体路径",
+      "draganddroppath": "要更改，将文件夹拖放到此窗口",
+      "newmediapath": "新媒体路径",
+      "explain": "更新上述路径中找到的所有媒体文件的路径。文件不会被复制或移动，这些操作需要手动完成。"
+    },
+    "playlistselect": {
+      "createnewplaylist": "创建新播放列表",
+      "namenewplaylist": "新播放列表名称"
+    },
+    "queue": {
+      "queue": "队列",
+      "history": "历史记录"
+    },
+    "settings": {
+      "settings": "设置",
+      "general": "一般",
+      "playback": "播放",
+      "files": "文件",
+      "tools": "工具",
+      "theme": {
+        "theme": "主题",
+        "system": "系统",
+        "dark": "深色",
+        "light": "浅色",
+        "custom": "自定义",
+        "editcolors": "编辑颜色",
+        "resetlight": "重置浅色",
+        "resetdark": "重置深色"
+      },
+      "startupview": "启动视图",
+      "language": "语言",
+      "searchforupdates": "自动搜索更新",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "更改媒体路径",
+      "managefolders": "管理媒体文件",
+      "managefolders_explain_active": "添加时，将媒体复制到专辑艺术家和标题的子文件夹中。",
+      "managefolders_explain_inactive": "添加媒体时保存其当前路径。",
+      "copynotcopiedmedia": "不复制未复制的媒体（不会删除文件）",
+      "allowdelete": "允许从 anmutunes 删除",
+      "allowdelete_active": "可以删除数据库中的条目。",
+      "allowdelete_inactive": "没有删除条目的选项。",
+      "allowdeletefiles": "允许删除文件",
+      "allowdeletefiles_active": "在询问时也会删除相应的文件。",
+      "allowdeletefiles_inactive": "没有从 anmutunes 中删除文件的选项。",
+      "extractcovers": "提取缺失封面",
+      "extractcovers_explain": "检查无封面专辑中曲目的元数据。从元数据中找到的第一个封面将被提取。",
+      "showmissingtracks": "显示缺失曲目",
+      "showmissingtracks_explain": "显示所有不能找到的曲目的概览。在概览中可以在其他地方搜索这些曲目。",
+      "standardisenames": "统一名称",
+      "standardisenames_explain": "使专辑、艺术家、作曲家和类型的名称一致化。",
+      "extractmetadata": "提取元数据",
+      "extractmetadata_explain": "为每个曲目提取元数据。手动更改将被覆盖。",
+      "support_please": "如果你喜欢 anmutunes，请考虑捐赠",
+      "updatesarehere": "更新可以在这里找到："
+    },
+    "setup": {
+      "setup": "设置",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "启动 anmutunes 时，将搜索新文件的目录。",
+      "searchforupdates_active_explain": "如果可用新版本时会有提示。",
+      "searchforupdates_inactive_explain": "不会搜索更新。"
+    },
+    "tutorial": {
+      "tutorial": "教程",
+      "ccmessage": "教程中使用的所有文件均为创意共享许可证。",
+      "attributions": "所有归属信息都可以在以下链接找到："
+    },
+    "sections": {
+      "today": "今天",
+      "lastweek": "上周",
+      "lastmonth": "上个月",
+      "lastthreemonths": "过去3个月",
+      "lastsixmonths": "过去6个月",
+      "thisyear": "今年"
+    },
+    "times": {
+      "year_one": "年",
+      "year_other": "年",
+      "year_short": "Y",
+      "month_one": "月",
+      "month_other": "个月",
+      "month_short": "M",
+      "week_one": "周",
+      "week_other": "周",
+      "week_short": "W",
+      "day_one": "天",
+      "day_other": "天",
+      "day_short": "D",
+      "hour_one": "小时",
+      "hour_other": "小时",
+      "hour_short": "h",
+      "minute_one": "分钟",
+      "minute_other": "分钟",
+      "minute_short": "m",
+      "second_one": "秒",
+      "second_other": "秒",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "正在提取封面",
+      "coverextract_done": "封面已被提取",
+      "libraryimport_work": "库正在导入中",
+      "libraryimport_done": "库已导入",
+      "fileimport_work": "文件正在导入中",
+      "fileimport_done": "文件已导入",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "删除完成",
+      "updatetracks_work": "曲目正在编辑",
+      "updatetracks_done": "编辑完成",
+      "updatealbum_work": "专辑正在编辑中",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "删除该专辑及其中的所有曲目？",
+      "artistandtracks": "删除此艺术家的所有曲目，包括属于其他艺术家专辑的曲目？",
+      "composerandtracks": "删除此作曲家的所有曲目，不论这些曲目所属的专辑？",
+      "genreandtracks": "删除属于此类别的所有曲目，不论这些曲目所属的专辑？",
+      "track": "删除上述曲目？",
+      "playlist": "删除上述播放列表？这不会删除任何曲目！",
+      "deleteincludingfiles": "$t(common.delete)，包括文件"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "如果 anmutunes 之前是空的，那么媒体路径将会更新。它将反映所有导入曲目的最长公共路径。如果此路径不正确，请首先确保在设置中的 \"$t(settings.files)\" 下的复选框 \"$t(settings.managefolders)\" 已勾选。然后点击 \"$t(settings.changemediapath)\".",
+        "second": "一旦路径正确，您可以使用 \"$t(settings.extractcovers)\" 工具加载专辑封面。",
+        "third": "如果 anmutunes 之前不是空的，曲目将会显示出来，但目前还无法更正它们的路径。此功能将在下一个更新中提供。"
+      }
+    },
+    "emptyview": {
+      "nothinghere": "这里似乎什么都没有",
+      "importlibrary": {
+        "first": "从 iTunes 或 Apple Music (均为 Apple Inc. 的注册商标) 导入库.xml",
+        "second": "在 iTunes/Apple Music 中点击文件 > 库 > 库导出",
+        "third": "将 XML 文件拖放到这里"
+      },
+      "importfiles": {
+        "first": "要添加文件：",
+        "second": "将包含音乐或音频书的文件夹拖放到这里。",
+        "third": "或者对单曲执行相同操作。"
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "超过 1024 首歌曲的播放列表无法排序。"
+    },
+    "llminfo": {
+      "long": "此语言的翻译是由 LLM 生成的。",
+      "short": "LLM 翻译",
+      "notice": "请在 GitHub 上创建问题以报告错误"
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Name",
+      "description": "Beschreibung",
+      "track_one": "Titel",
+      "track_other": "Titel",
+      "title": "Titel",
+      "artist_one": "Künstler",
+      "artist_other": "Künstler",
+      "composer_one": "Komponist",
+      "composer_other": "Komponisten",
+      "album_one": "Album",
+      "album_other": "Alben",
+      "albumartist": "Album Künstler",
+      "genre_one": "Genre",
+      "genre_other": "Genres",
+      "cdnumber": "CD #",
+      "cdnumber_long": "CD Nummer",
+      "tracknumber": "Track #",
+      "tracknumber_long": "Titel Nummer",
+      "tracklength": "Dauer",
+      "playlist_one": "Wiedergabeliste",
+      "playlist_other": "Wiedergabelisten",
+      "year": "Jahr",
+      "release": "Veröffentlicht",
+      "release_long": "Veröffentlichung",
+      "added": "Hinzugefügt",
+      "cover": "Cover",
+      "emptylist": "Liste Leeren",
+      "listisempty": "Diese Liste ist leer",
+      "newplaylist": "Neue Wiedergabeliste",
+      "mediapath": "Medienordner",
+      "present": "jetzt",
+      "save": "Speichern",
+      "abort": "Abbrechen",
+      "yes": "Ja",
+      "no": "Nein",
+      "close": "Schließen",
+      "delete": "Löschen",
+      "system": "System"
+    },
+    "viewselect": {
+      "recents": "Zuletzt hinzugefügt",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Hintergrund",
+      "background_active": "Hintergrund Aktiv",
+      "background_hover": "Hintergrund Interaktion",
+      "background_button": "Hintergrund Knopf",
+      "border": "Umrandung",
+      "accent": "Eingabe Akzent",
+      "warn": "Warnung",
+      "text": "Text",
+      "text_dim": "Text Gedimmt",
+      "text_highlight": "Text Hervorgehoben",
+      "shadow": "Schatten"
+    },
+    "contextmenu": {
+      "play": "Abspielen",
+      "playrandom": "Zufällig abspielen",
+      "playnext": "Als Nächstes",
+      "addqueue": "Zur Warteschlange zufügen",
+      "addplaylist": "Zu Wiedergabeliste zufügen",
+      "showartist": "Gehe zum Künstler",
+      "showgenre": "Gehe zum Genre",
+      "showalbum": "Gehe zum Album",
+      "showcomposer": "Gehe zum Komponisten",
+      "showplaylist": "Gehe zur Wiedergabeliste",
+      "showlyrics": "Zeige Liedtext an",
+      "openpath": "Öffne enthaltenden Pfad",
+      "showsimilar": "Zeige Ähnliche",
+      "rating": "Bewerten",
+      "info": "Informationen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "extractcover": "Cover Extrahieren"
+    },
+    "edit": {
+      "cannotedit": "Diese Daten können nicht bearbeitet werden",
+      "editalbum": "Album bearbeiten",
+      "editartist": "Künstler bearbeiten",
+      "editcomposer": "Komponist bearbeiten",
+      "editgenre": "Genre bearbeiten",
+      "editplaylist": "Wiedergabeliste bearbeiten",
+      "newplaylist": "Neue Wiedergabeliste",
+      "edittrack": "Titel bearbeiten",
+      "sort_album": "Sortiertitel"
+    },
+    "import": {
+      "importlibrary": "Mediathek Importieren?"
+    },
+    "mediapath": {
+      "currentmediapath": "Aktueller Medien Pfad",
+      "draganddroppath": "Zum ändern einfach den Ordner ins Fenster ziehen und loslassen",
+      "newmediapath": "Neuer Medien Pfad",
+      "explain": "Dies updatet den Pfad aller Mediendateien die in obigem Pfad zu finden sind. Die Dateien werden nicht kopiert oder verschoben, dies muss manuell erledigt werden."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Neue Wiedergabeliste erstellen",
+      "namenewplaylist": "Name neuer Wiedergabeliste"
+    },
+    "queue": {
+      "queue": "Warteschlange",
+      "history": "Verlauf"
+    },
+    "settings": {
+      "settings": "Einstellungen",
+      "general": "Allgemein",
+      "playback": "Wiedergabe",
+      "files": "Dateien",
+      "tools": "Werkzeuge",
+      "theme": {
+        "theme": "Thema",
+        "system": "System",
+        "dark": "Dunkel",
+        "light": "Hell",
+        "custom": "Individuell",
+        "editcolors": "Farben bearbeiten",
+        "resetlight": "Zurücksetzen Hell",
+        "resetdark": "Zurücksetzen Dunkel"
+      },
+      "startupview": "Startansicht",
+      "language": "Sprache",
+      "searchforupdates": "Automatisch nach Updates suchen",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Medienordner Ändern",
+      "managefolders": "Medien-Dateien verwalten",
+      "managefolders_explain_active": "Beim hinzufügen werden Medien in Unterordner von Albumkünstler und Albumtitel kopiert.",
+      "managefolders_explain_inactive": "Beim hinzufügen von Medien speichert anmutunes deren aktuellen Pfad.",
+      "copynotcopiedmedia": "Nicht kopierte Medien kopieren (löscht keine Dateien)",
+      "allowdelete": "Löschen aus anmutunes erlauben",
+      "allowdelete_active": "Einträge aus der Datenbank können gelöscht werden.",
+      "allowdelete_inactive": "Es gibt keine Möglichkeit Einträge zu löschen.",
+      "allowdeletefiles": "Löschen der Dateien erlauben",
+      "allowdeletefiles_active": "Auf Nachfrage werden auch die entsprechenden Dateien gelöscht.",
+      "allowdeletefiles_inactive": "Es gibt keine Möglichkeit von anmutunes aus Dateien zu löschen.",
+      "extractcovers": "Fehlende Cover Extrahieren",
+      "extractcovers_explain": "Prüft Metadaten von Tracks aus Alben ohne Cover. Das erste in den Metadaten gefundene Cover wird extrahiert.",
+      "showmissingtracks": "Fehlende Tracks anzeigen",
+      "showmissingtracks_explain": "Zeigt eine Übersicht aller Tracks die nicht gefunden werden können. In der Übersicht ist es möglich nach diesen an anderen Orten zu suchen.",
+      "standardisenames": "Namen Vereinheitlichen",
+      "standardisenames_explain": "Ermöglicht es die Namen von Alben, Künstlern, Komponisten, Genres zu vereinheitlichen.",
+      "extractmetadata": "Metadaten Extrahieren",
+      "extractmetadata_explain": "Extrahiert für jeden Track die Metadaten. Manuelle Änderungen werden überschrieben.",
+      "support_please": "Wenn dir anmutunes gefällt würde ich mich über eine Spende freuen",
+      "updatesarehere": "Updates findet man hier:"
+    },
+    "setup": {
+      "setup": "Setup",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Dieser Ordner wird beim starten von anmutunes durchsucht nach neuen Dateien.",
+      "searchforupdates_active_explain": "Wenn eine neue Version verfügbar ist gibt es einen Hinweis.",
+      "searchforupdates_inactive_explain": "Es wird nicht nach Updates gesucht."
+    },
+    "tutorial": {
+      "tutorial": "Tutorial",
+      "ccmessage": "Alle im Tutorial verwendeten Dateien sind Creative Commons lizenziert.",
+      "attributions": "Alle Attributionen sind unter folgendem Link zu finden:"
+    },
+    "sections": {
+      "today": "Heute",
+      "lastweek": "Letzte Woche",
+      "lastmonth": "Letzter Monat",
+      "lastthreemonths": "Letzte 3 Monate",
+      "lastsixmonths": "Letzte 6 Monate",
+      "thisyear": "Dieses Jahr"
+    },
+    "times": {
+      "year_one": "Jahr",
+      "year_other": "Jahre",
+      "year_short": "J",
+      "month_one": "Monat",
+      "month_other": "Monate",
+      "month_short": "M",
+      "week_one": "Woche",
+      "week_other": "Wochen",
+      "week_short": "W",
+      "day_one": "Tag",
+      "day_other": "Tage",
+      "day_short": "T",
+      "hour_one": "Stunde",
+      "hour_other": "Stunden",
+      "hour_short": "h",
+      "minute_one": "Minute",
+      "minute_other": "Minuten",
+      "minute_short": "m",
+      "second_one": "Sekunde",
+      "second_other": "Sekunden",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "Cover werden extrahiert",
+      "coverextract_done": "Cover wurden extrahiert",
+      "libraryimport_work": "Mediathek wird importiert",
+      "libraryimport_done": "Mediathek wurde importiert",
+      "fileimport_work": "Dateien werden importiert",
+      "fileimport_done": "Dateien wurden importiert",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Löschen abgeschlossen",
+      "updatetracks_work": "Titel werden bearbeitet",
+      "updatetracks_done": "Bearbeitung abgeschlossen",
+      "updatealbum_work": "Album wird bearbeitet",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Das Album und alle Titel daraus löschen?",
+      "artistandtracks": "Alle Titel dieses Künstlers löschen, auch solche die zu Alben anderer Künstler gehören?",
+      "composerandtracks": "Alle Titel dieses Komponisten löschen, unabhängig zu welchen Alben diese gehören?",
+      "genreandtracks": "Alle Titel die zu diesem Genre gehören löschen, unabhängig zu welchen Alben diese gehören?",
+      "track": "Den obigen Titel löschen?",
+      "playlist": "Die obige Wiedergabeliste löschen? Es werden keine Titel gelöscht!",
+      "deleteincludingfiles": "$t(common.delete), inklusive Dateien"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Wenn anmutunes zuvor leer war wurde dein Medienordner geändert. Er entspricht dann dem längsten gemeinsamen Pfad aller importierten Titel. Sollte dieser Pfad nicht korrekt sein, gehe sicher, dass in den Einstellungen unter \"$t(settings.files)\" ein Haken gesetzt ist bei \"$t(settings.managefolders)\". Danach kannst du auf \"$t(settings.changemediapath)\" klicken.",
+        "second": "Sobald der Pfad korrekt ist kann das \"$t(settings.extractcovers)\" Werkzeug genutzt werden um die Alben Cover zu laden.",
+        "third": "Wenn anmutunes nicht leer war werden die Titel zwar angezeigt, aber ihr Pfad kann aktuell noch nicht korrigiert werden. Diese Funktionalität kommt im nächsten Update."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Hier scheint noch nichts zu sein",
+      "importlibrary": {
+        "first": "Importiere eine Mediathek.xml aus iTunes oder Apple Music (beides eingetragene Marken von Apple Inc.)",
+        "second": "In iTunes/Apple Music auf Ablage > Mediathek > Mediathek exportieren.",
+        "third": "Ziehe einfach die XML Datei hier hin"
+      },
+      "importfiles": {
+        "first": "Um Dateien zuzufügen:",
+        "second": "Ziehe einfach einen Ordner der Musik oder Hörbücher enthält hier hin.",
+        "third": "Oder ziehe einzelne Titel hier hin."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Wiedergabelisten mit mehr als 1024 Titeln können nicht sortiert werden."
+    },
+    "llminfo": {
+      "long": "",
+      "short": "",
+      "notice": ""
+    }
+  }
+}

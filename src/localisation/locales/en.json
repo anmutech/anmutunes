@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Name",
+      "description": "Description",
+      "track_one": "Track",
+      "track_other": "Tracks",
+      "title": "Title",
+      "artist_one": "Artist",
+      "artist_other": "Artists",
+      "composer_one": "Composer",
+      "composer_other": "Composers",
+      "album_one": "Album",
+      "album_other": "Albums",
+      "albumartist": "Album Artist",
+      "genre_one": "Genre",
+      "genre_other": "Genres",
+      "cdnumber": "CD #",
+      "cdnumber_long": "CD Number",
+      "tracknumber": "Track #",
+      "tracknumber_long": "Titel Number",
+      "tracklength": "Duration",
+      "playlist_one": "Playlist",
+      "playlist_other": "Playlists",
+      "year": "Year",
+      "release": "Released",
+      "release_long": "Release Date",
+      "added": "Added",
+      "cover": "Cover",
+      "emptylist": "Empty List",
+      "listisempty": "This List is empty",
+      "newplaylist": "New Playlist",
+      "mediapath": "Mediapath",
+      "present": "present",
+      "save": "Save",
+      "abort": "Abort",
+      "yes": "Yes",
+      "no": "No",
+      "close": "Close",
+      "delete": "Delete",
+      "system": "System"
+    },
+    "viewselect": {
+      "recents": "Recently added",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Background",
+      "background_active": "Background Active",
+      "background_hover": "Background Interaction",
+      "background_button": "Background Button",
+      "border": "Border",
+      "accent": "Input Accent",
+      "warn": "Warning",
+      "text": "Text",
+      "text_dim": "Text Dimmed",
+      "text_highlight": "Text Highlight",
+      "shadow": "Shadow"
+    },
+    "contextmenu": {
+      "play": "Play",
+      "playrandom": "Play Random",
+      "playnext": "Play Next",
+      "addqueue": "Add to Queue",
+      "addplaylist": "Add to Playlist",
+      "showartist": "Show Artist",
+      "showgenre": "Show Genre",
+      "showalbum": "Show Album",
+      "showcomposer": "Show Composer",
+      "showplaylist": "Show Playlist",
+      "showlyrics": "Show Lyrics",
+      "openpath": "Open containing Path",
+      "showsimilar": "Show Similar",
+      "rating": "Rate",
+      "info": "Info",
+      "edit": "Edit",
+      "delete": "Delete",
+      "extractcover": "Extract Cover"
+    },
+    "edit": {
+      "cannotedit": "This Data cannot be edited",
+      "editalbum": "Edit Album",
+      "editartist": "Edit Artist",
+      "editcomposer": "Edit Composer",
+      "editgenre": "Edit Genre",
+      "editplaylist": "Edit Playlist",
+      "newplaylist": "New Playlist",
+      "edittrack": "Edit Track",
+      "sort_album": "Sort Title"
+    },
+    "import": {
+      "importlibrary": "Import Library?"
+    },
+    "mediapath": {
+      "currentmediapath": "Current Media Path",
+      "draganddroppath": "To change, drag and drop the folder on this window",
+      "newmediapath": "New Media Path",
+      "explain": "Updates the path of all media files that are found in the above path. The files won't be copied or moved, you have to do this manually"
+    },
+    "playlistselect": {
+      "createnewplaylist": "Create New Playlist",
+      "namenewplaylist": "New Playlist Name"
+    },
+    "queue": {
+      "queue": "Queue",
+      "history": "History"
+    },
+    "settings": {
+      "settings": "Settings",
+      "general": "General",
+      "playback": "Playback",
+      "files": "Files",
+      "tools": "Tools",
+      "theme": {
+        "theme": "Theme",
+        "system": "$t(common.system)",
+        "dark": "Dark",
+        "light": "Light",
+        "custom": "Custom",
+        "editcolors": "Edit Colors",
+        "resetlight": "Reset Light",
+        "resetdark": "Reset Dark"
+      },
+      "startupview": "Startup View",
+      "language": "Language",
+      "searchforupdates": "Automatically look for updates",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Change Media Path",
+      "managefolders": "Manage Media Files",
+      "managefolders_explain_active": "When added, media files are copied into subfolders of Album Artist and Album Title.",
+      "managefolders_explain_inactive": "When added, anmutunes stores the current path of media files.",
+      "copynotcopiedmedia": "Copy not copied media files (deletes nothing)",
+      "allowdelete": "Allow deleting from anmutunes",
+      "allowdelete_active": "Entries in the database can be deleted.",
+      "allowdelete_inactive": "There is no option to delete entries or files.",
+      "allowdeletefiles": "Allow deleting files",
+      "allowdeletefiles_active": "After confirmation, the associated files are deleted.",
+      "allowdeletefiles_inactive": "There is no option to delete files from within anmutunes.",
+      "extractcovers": "Extract Missing Covers",
+      "extractcovers_explain": "Parses metadata from tracks of albums withoug a Cover. The first detected cover is extraced and applied.",
+      "showmissingtracks": "Show Missing Tracks",
+      "showmissingtracks_explain": "Shows an overview of all tracks that could not be found. The overview supports looking for those tracks in other paths.",
+      "standardisenames": "Standardise Names",
+      "standardisenames_explain": "Allows to standardise names of albums, artists, composers, and genres.",
+      "extractmetadata": "Extract Metadata",
+      "extractmetadata_explain": "Extracts the metadata for every track. Manual edits will be overwritten.",
+      "support_please": "If you enjoy anmutunes, please consider supporting me",
+      "updatesarehere": "Updates can be found here:"
+    },
+    "setup": {
+      "setup": "Setup",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "This path will be searched for new files on every startup of anmutunes.",
+      "searchforupdates_active_explain": "If a new version is available, a popup appears.",
+      "searchforupdates_inactive_explain": "No update searches will be performed."
+    },
+    "tutorial": {
+      "tutorial": "Tutorial",
+      "ccmessage": "All files uses in the tutorial are Creative Commons licenced.",
+      "attributions": "All attributions can be found under the following link:"
+    },
+    "sections": {
+      "today": "Today",
+      "lastweek": "Last Week",
+      "lastmonth": "Last Month",
+      "lastthreemonths": "Last 3 Months",
+      "lastsixmonths": "Last 6 Months",
+      "thisyear": "This Year"
+    },
+    "times": {
+      "year_one": "Year",
+      "year_other": "Years",
+      "year_short": "Y",
+      "month_one": "Month",
+      "month_other": "Months",
+      "month_short": "M",
+      "week_one": "Week",
+      "week_other": "Weeks",
+      "week_short": "W",
+      "day_one": "Day",
+      "day_other": "Days",
+      "day_short": "D",
+      "hour_one": "Hour",
+      "hour_other": "Hours",
+      "hour_short": "h",
+      "minute_one": "Minute",
+      "minute_other": "Minutes",
+      "minute_short": "m",
+      "second_one": "Second",
+      "second_other": "Seconds",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "Covers get extracted",
+      "coverextract_done": "Cover have been extracted",
+      "libraryimport_work": "Library is being imported",
+      "libraryimport_done": "Library has been imported",
+      "fileimport_work": "Files are being imported",
+      "fileimport_done": "Files have been imported",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Delete finished",
+      "updatetracks_work": "Tracks are being edited",
+      "updatetracks_done": "Editing completed",
+      "updatealbum_work": "Album is being edited",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Delete Album and all included Tracks?",
+      "artistandtracks": "Delete all Tracks by this Artist, including those part of Albums by other Artists?",
+      "composerandtracks": "Delete all Tracks by this Composer, independend of the Albums they are part of?",
+      "genreandtracks": "Delete all Tracks that are of this Genre, independend of the Albums they are part of?",
+      "track": "Delete above Track?",
+      "playlist": "Delete above Playlist? No Tracks will be deleted!",
+      "deleteincludingfiles": "$t(common.delete), including media files"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "If anmutunes was empty before, then the Mediapath will have been updated. It will reflect the longest common path of all imported Tracks. Should this path be incorrect, first make sure that the checkbox \"$t(settings.managefolders)\" in the Settings under  \"$t(settings.files)\" is checked. Afterwards click on \"$t(settings.changemediapath)\".",
+        "second": "Once the path is correct you can use the \"$t(settings.extractcovers)\" tool to load the Album Covers.",
+        "third": "If anmutunes was not empty, the tracks will be shown, but it is currently not possible to correct their path. This functionality will be part of the next update."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "It seems there's nothing here",
+      "importlibrary": {
+        "first": "Import a library.xml from iTunes or Apple Music (both registered trademarks of Apple Inc.)",
+        "second": "In iTunes/Apple Music click Files > Library > Library export",
+        "third": "Drag the XML file and drop it here"
+      },
+      "importfiles": {
+        "first": "To add files:",
+        "second": "Drag a folder containing music or audiobooks and drop here.",
+        "third": "Or do the same for single Tracks."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Playlists with more than 1024 Tracks cannot be sorted."
+    },
+    "llminfo": {
+      "long": "",
+      "short": "",
+      "notice": ""
+    }
+  }
+}

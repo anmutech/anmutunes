@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Navn",
+      "description": "Beskrivelse",
+      "track_one": "Spor",
+      "track_other": "Spor",
+      "title": "Titel",
+      "artist_one": "Kunstner",
+      "artist_other": "Kunstnere",
+      "composer_one": "Komponist",
+      "composer_other": "Komponister",
+      "album_one": "Album",
+      "album_other": "Albums",
+      "albumartist": "Albumkunstner",
+      "genre_one": "Genre",
+      "genre_other": "Genrer",
+      "cdnumber": "CD #",
+      "cdnumber_long": "CD Nummer",
+      "tracknumber": "Spor #",
+      "tracknumber_long": "Titel Nummer",
+      "tracklength": "Varighed",
+      "playlist_one": "Afspilningsliste",
+      "playlist_other": "Afspilningslister",
+      "year": "År",
+      "release": "Udgivet",
+      "release_long": "Udgivelsesdato",
+      "added": "Tilføjet",
+      "cover": "Cover",
+      "emptylist": "Tom Liste",
+      "listisempty": "Denne liste er tom",
+      "newplaylist": "Ny Afspilningsliste",
+      "mediapath": "Medieordner",
+      "present": "nuværende",
+      "save": "Gem",
+      "abort": "Afbryd",
+      "yes": "Ja",
+      "no": "Nej",
+      "close": "Luk",
+      "delete": "Slet",
+      "system": "System"
+    },
+    "viewselect": {
+      "recents": "Senest tilføjet",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Baggrund",
+      "background_active": "Aktiv Baggrund",
+      "background_hover": "Interaktion Baggrund",
+      "background_button": "Knap Baggrund",
+      "border": "Kant",
+      "accent": "Indgangsfarve",
+      "warn": "Advarsel",
+      "text": "Tekst",
+      "text_dim": "Nedtonet Tekst",
+      "text_highlight": "Fremhævet Tekst",
+      "shadow": "Skygge"
+    },
+    "contextmenu": {
+      "play": "Afspil",
+      "playrandom": "Afspil Tilfældig",
+      "playnext": "Afspil Næste",
+      "addqueue": "Tilføj til Kø",
+      "addplaylist": "Tilføj til Afspilningsliste",
+      "showartist": "Vis Kunstner",
+      "showgenre": "Vis Genre",
+      "showalbum": "Vis Album",
+      "showcomposer": "Vis Komponist",
+      "showplaylist": "Vis Afspilningsliste",
+      "showlyrics": "Vis Tekst",
+      "openpath": "Åbn indeholdende Sti",
+      "showsimilar": "Vis Lignende",
+      "rating": "Bedømmelse",
+      "info": "Info",
+      "edit": "Rediger",
+      "delete": "Slet",
+      "extractcover": "Eksportér Cover"
+    },
+    "edit": {
+      "cannotedit": "Denne Data kan ikke redigeres",
+      "editalbum": "Rediger Album",
+      "editartist": "Rediger Kunstner",
+      "editcomposer": "Rediger Komponist",
+      "editgenre": "Rediger Genre",
+      "editplaylist": "Rediger Afspilningsliste",
+      "newplaylist": "Ny Afspilningsliste",
+      "edittrack": "Rediger Titel",
+      "sort_album": "Sortertitel"
+    },
+    "import": {
+      "importlibrary": "Importer Mediathek?"
+    },
+    "mediapath": {
+      "currentmediapath": "Nuværende Medien Sti",
+      "draganddroppath": "For at ændre, træk og slip mappen i dette vindue",
+      "newmediapath": "Ny Medien Sti",
+      "explain": "Opdaterer stien til alle mediefiler, der findes i ovenstående sti. Filerne vil ikke blive kopieret eller flyttet; dette skal gøres manuelt."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Opret ny afspilningsliste",
+      "namenewplaylist": "Navn på ny afspilningsliste"
+    },
+    "queue": {
+      "queue": "Kø",
+      "history": "Historik"
+    },
+    "settings": {
+      "settings": "Indstillinger",
+      "general": "Generelt",
+      "playback": "Afspilning",
+      "files": "Filer",
+      "tools": "Værktøjer",
+      "theme": {
+        "theme": "Tema",
+        "system": "System",
+        "dark": "Mørk",
+        "light": "Lys",
+        "custom": "Tilpasset",
+        "editcolors": "Rediger farver",
+        "resetlight": "Nulstil Lys",
+        "resetdark": "Nulstil Mørk"
+      },
+      "startupview": "Startvisning",
+      "language": "Sprog",
+      "searchforupdates": "Søg automatisk efter opdateringer",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Skift Medieordner",
+      "managefolders": "Administrer mediefiler",
+      "managefolders_explain_active": "Ved tilføjelse kopieres medier til underordnere af albumkunstner og albumtitel.",
+      "managefolders_explain_inactive": "Ved tilføjelse gemmer anmutunes deres nuværende sti.",
+      "copynotcopiedmedia": "Kopier ikke-kopierede medier (sletter ingen filer)",
+      "allowdelete": "Tillad sletning fra anmutunes",
+      "allowdelete_active": "Indlæg i databasen kan slettes.",
+      "allowdelete_inactive": "Der er ingen mulighed for at slette indlæg.",
+      "allowdeletefiles": "Tillad filer at blive slettet",
+      "allowdeletefiles_active": "På anmodning vil de relevante filer også blive slettet.",
+      "allowdeletefiles_inactive": "Der er ingen mulighed fra anmutunes for at slette filer.",
+      "extractcovers": "Eksportér manglende cover",
+      "extractcovers_explain": "Tjekker metadata fra spor på album uden cover. Det første cover fundet i metadatan vil blive eksporteret.",
+      "showmissingtracks": "Vis manglende spor",
+      "showmissingtracks_explain": "Viser en oversigt over alle spor der ikke kan findes. I oversigten er det muligt at søge efter disse andre steder.",
+      "standardisenames": "Standardiser navne",
+      "standardisenames_explain": "Gør det muligt at standardisere navne på albums, kunstnere, komponister og genrer.",
+      "extractmetadata": "Eksportér metadata",
+      "extractmetadata_explain": "Eksporterer metadata for hvert spor. Manuelle ændringer vil blive overskrevet.",
+      "support_please": "Hvis du kan lide anmutunes ville jeg glæde mig over en donation",
+      "updatesarehere": "Opdateringer findes her:"
+    },
+    "setup": {
+      "setup": "Opsætning",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Denne mappe bliver gennemgået når anmutunes starter efter nye filer.",
+      "searchforupdates_active_explain": "Hvis en ny version er tilgængelig, vil der blive givet en opmærksomhed.",
+      "searchforupdates_inactive_explain": "Der søges ikke efter opdateringer."
+    },
+    "tutorial": {
+      "tutorial": "Tutorial",
+      "ccmessage": "Alle filer, der bruges i tutorialet, er licenseret under Creative Commons.",
+      "attributions": "Alle attribuitioner kan findes på følgende link:"
+    },
+    "sections": {
+      "today": "I dag",
+      "lastweek": "Sidste uge",
+      "lastmonth": "Sidste måned",
+      "lastthreemonths": "Sidste 3 måneder",
+      "lastsixmonths": "Sidste 6 måneder",
+      "thisyear": "Dette år"
+    },
+    "times": {
+      "year_one": "År",
+      "year_other": "År",
+      "year_short": "Å",
+      "month_one": "Måned",
+      "month_other": "Måneder",
+      "month_short": "Md",
+      "week_one": "Uge",
+      "week_other": "Uger",
+      "week_short": "Ug",
+      "day_one": "Dag",
+      "day_other": "Dage",
+      "day_short": "D",
+      "hour_one": "Time",
+      "hour_other": "Timer",
+      "hour_short": "t",
+      "minute_one": "Minut",
+      "minute_other": "Minutter",
+      "minute_short": "m",
+      "second_one": "Sekund",
+      "second_other": "Sekunder",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "Cover uddrags",
+      "coverextract_done": "Cover er blevet udtrakt",
+      "libraryimport_work": "Biblioteket importeres",
+      "libraryimport_done": "Biblioteket er blevet importeret",
+      "fileimport_work": "Filer importeres",
+      "fileimport_done": "Filene er blevet importeret",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Sletning afsluttet",
+      "updatetracks_work": "Titler redigeres",
+      "updatetracks_done": "Redigering afsluttet",
+      "updatealbum_work": "Albummet redigeres",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Slette albummet og alle titlerne?",
+      "artistandtracks": "Slette alle titler fra denne kunstner, inklusive dem der tilhører andre albummer?",
+      "composerandtracks": "Slette alle titler af denne komponist, uanset hvilke albummer de tilhører?",
+      "genreandtracks": "Slette alle titler i dette genre, uanset hvilke albummer de tilhører?",
+      "track": "Slette den ovenstående titel?",
+      "playlist": "Slette den ovenstående afspilningsliste? Ingen titler vil blive slettet!",
+      "deleteincludingfiles": "$t(common.delete), inklusiv filer"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Hvis anmutunes tidligere var tom, er din mediefolder ændret. Den svarer nu til den længste fælles sti for alle importerede titler. Hvis denne sti ikke er korrekt, skal du sørge for at \"$t(settings.managefolders)\" har et kryds i indstillingerne under \"$t(settings.files)\". Derefter kan du klikke på \"$t(settings.changemediapath)\".",
+        "second": "Når stien er korrekt, kan værktøjet \"$t(settings.extractcovers)\" bruges til at indlæse albumcover.",
+        "third": "Hvis anmutunes ikke var tom, vil titlerne blive vist, men deres sti kan for tiden stadig ikke korrigeres. Denne funktion vil være en del af næste opdatering."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Det ser ud til at der er intet her",
+      "importlibrary": {
+        "first": "Importer en bibliotek.xml fra iTunes eller Apple Music (begge registrerede varemærker af Apple Inc.)",
+        "second": "I iTunes/Apple Music, klik på Fil > Mediathek > Mediathek eksportere",
+        "third": "Træk XML-filen og slip den her"
+      },
+      "importfiles": {
+        "first": "For at tilføje filer:",
+        "second": "Træk en mappe indeholdende musik eller hørebøger herhen.",
+        "third": "Eller gør det samme for enkelt titler."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Afspilningslister med mere end 1024 titler kan ikke sorteres."
+    },
+    "llminfo": {
+      "long": "Oversættelsen for dette sprog blev genereret af et LLM.",
+      "short": "LLM oversættelse",
+      "notice": "Rapporter fejl på GitHub"
+    }
+  }
+}

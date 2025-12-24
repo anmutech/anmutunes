@@ -1,0 +1,252 @@
+{
+  "translation": {
+    "common": {
+      "name": "名前",
+      "description": "説明",
+      "track_one": "トラック",
+      "track_other": "トラック",
+      "title": "タイトル",
+      "artist_one": "アーティスト",
+      "artist_other": "アーティスト",
+      "composer_one": "作曲者",
+      "composer_other": "作曲者",
+      "album_one": "アルバム",
+      "album_other": "アルバム",
+      "albumartist": "アルバム アーティスト",
+      "genre_one": "ジャンル",
+      "genre_other": "ジャンル",
+      "cdnumber": "CD #",
+      "cdnumber_long": "CD番号",
+      "tracknumber": "トラック #",
+      "tracknumber_long": "タイトル番号",
+      "tracklength": "長さ",
+      "playlist_one": "プレイリスト",
+      "playlist_other": "プレイリスト",
+      "year": "年",
+      "release": "リリース",
+      "release_long": "リリース日",
+      "added": "追加済み",
+      "cover": "カバー",
+      "emptylist": "リストをクリア",
+      "listisempty": "このリストは空です",
+      "newplaylist": "新しいプレイリスト",
+      "mediapath": "メディアパス",
+      "present": "現在",
+      "save": "保存",
+      "abort": "中止",
+      "yes": "はい",
+      "no": "いいえ",
+      "close": "閉じる",
+      "delete": "削除",
+      "system": "システム"
+    },
+    "viewselect": {
+      "recents": "最近追加された",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "背景",
+      "background_active": "アクティブな背景",
+      "background_hover": "背景のインタラクション",
+      "background_button": "背景ボタン",
+      "border": "ボーダー",
+      "accent": "アクセント",
+      "warn": "警告",
+      "text": "テキスト",
+      "text_dim": "テキスト（淡色）",
+      "text_highlight": "テキスト（強調）",
+      "shadow": "影"
+    },
+    "contextmenu": {
+      "play": "再生",
+      "playrandom": "ランダム再生",
+      "playnext": "次に再生",
+      "addqueue": "キューに追加",
+      "addplaylist": "プレイリストに追加",
+      "showartist": "アーティストを表示",
+      "showgenre": "ジャンルを表示",
+      "showalbum": "アルバムを表示",
+      "showcomposer": "作曲者を表示",
+      "showplaylist": "プレイリストを表示",
+      "showlyrics": "歌詞を表示",
+      "openpath": "パスを開く",
+      "showsimilar": "似たものを表示",
+      "rating": "評価",
+      "info": "情報",
+      "edit": "編集",
+      "delete": "削除",
+      "extractcover": "カバーを抽出"
+    },
+    "edit": {
+      "cannotedit": "このデータは編集できません",
+      "editalbum": "アルバムを編集",
+      "editartist": "アーティストを編集",
+      "editcomposer": "作曲者を編集",
+      "editgenre": "ジャンルを編集",
+      "editplaylist": "プレイリストを編集",
+      "newplaylist": "新しいプレイリスト",
+      "edittrack": "トラックを編集",
+      "sort_album": "タイトルを並べ替え"
+    },
+    "import": {
+      "importlibrary": "ライブラリをインポートしますか？"
+    },
+    "mediapath": {
+      "currentmediapath": "現在のメディアパス",
+      "draganddroppath": "変更するには、フォルダをこのウィンドウにドラッグ＆ドロップしてください",
+      "newmediapath": "新しいメディアパス",
+      "explain": "このツールは、指定されたパス内にあるすべてのメディアファイルのパスを更新します。ファイル自体はコピーされたり移動されることはありません。これらの操作は手動で行う必要があります。"
+    },
+    "playlistselect": {
+      "createnewplaylist": "新しいプレイリストを作成する",
+      "namenewplaylist": "新しいプレイリストの名前"
+    },
+    "queue": {
+      "queue": "キュー",
+      "history": "履歴"
+    },
+    "settings": {
+      "settings": "設定",
+      "general": "一般",
+      "playback": "再生",
+      "files": "ファイル",
+      "tools": "ツール",
+      "theme": {
+        "theme": "テーマ",
+        "system": "$t(common.system)",
+        "dark": "ダーク",
+        "light": "ライト",
+        "custom": "カスタム",
+        "editcolors": "色を編集",
+        "resetlight": "ライトをリセット",
+        "resetdark": "ダークをリセット"
+      },
+      "startupview": "起動ビュー",
+      "language": "言語",
+      "searchforupdates": "自動的に更新を検索",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "メディアパスを変更",
+      "managefolders": "メディファイルの管理",
+      "managefolders_explain_active": "追加時、メディアはアルバムアーティストとアルバムタイトルのサブフォルダーにコピーされます。",
+      "managefolders_explain_inactive": "追加時、anmutuesはその現在のパスを保存します。",
+      "copynotcopiedmedia": "コピーされていないメディアをコピー（ファイルは削除されません）",
+      "allowdelete": "anmutuesから削除を許可",
+      "allowdelete_active": "データベースのエントリーが削除できます。",
+      "allowdelete_inactive": "エントリーを削除する方法はありません。",
+      "allowdeletefiles": "ファイルの削除を許可",
+      "allowdeletefiles_active": "要求に応じて、対応するファイルも削除されます。",
+      "allowdeletefiles_inactive": "anmutuesからファイルを削除する方法はありません。",
+      "extractcovers": "不足しているカバーを抽出",
+      "extractcovers_explain": "カバーのないアルバムのトラックメタデータを確認します。最初に見つかったカバーがメタデータから抽出されます。",
+      "showmissingtracks": "不足しているトラックを表示",
+      "showmissingtracks_explain": "見つけられなかったすべてのトラックの概要を表示します。この概要で他の場所を検索することができます。",
+      "standardisenames": "名前を標準化",
+      "standardisenames_explain": "アルバム、アーティスト、作曲者、ジャンルの名前を標準化することを可能にします。",
+      "extractmetadata": "メタデータを抽出",
+      "extractmetadata_explain": "各トラックのメタデータを抽出します。手動での変更は上書きされます。",
+      "support_please": "anmutuesが気に入った場合、寄付をお願いいたします",
+      "updatesarehere": "アップデートはこちらにあります:"
+    },
+    "setup": {
+      "setup": "設定",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "anmutuesを起動すると、このフォルダが新しいファイルを検索します。",
+      "searchforupdates_active_explain": "新しいバージョンが利用可能な場合、通知が表示されます。",
+      "searchforupdates_inactive_explain": "更新を検索しません。"
+    },
+    "tutorial": {
+      "tutorial": "チュートリアル",
+      "ccmessage": "このチュートリアルで使用されるすべてのファイルはクリエイティブ・コモンズ ライセンスに基づいています。",
+      "attributions": "次のリンクからすべての帰属情報を確認できます:"
+    },
+    "sections": {
+      "today": "今日",
+      "lastweek": "先週",
+      "lastmonth": "先月",
+      "lastthreemonths": "過去3ヶ月",
+      "lastsixmonths": "過去6ヶ月",
+      "thisyear": "今年"
+    },
+
+    "times": {
+      "year_one": "年",
+      "year_other": "年",
+      "year_short": "Y",
+      "month_one": "月",
+      "month_other": "ヶ月",
+      "month_short": "M",
+      "week_one": "週",
+      "week_other": "週間",
+      "week_short": "W",
+      "day_one": "日",
+      "day_other": "日間",
+      "day_short": "D",
+      "hour_one": "時間",
+      "hour_other": "時間",
+      "hour_short": "h",
+      "minute_one": "分",
+      "minute_other": "分",
+      "minute_short": "m",
+      "second_one": "秒",
+      "second_other": "秒",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "カバーが抽出されています",
+      "coverextract_done": "カバーが抽出されました",
+      "libraryimport_work": "ライブラリがインポートされています",
+      "libraryimport_done": "ライブラリがインポートされました",
+      "fileimport_work": "ファイルがインポートされています",
+      "fileimport_done": "ファイルがインポートされました",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "削除完了",
+      "updatetracks_work": "トラックが編集されています",
+      "updatetracks_done": "編集完了",
+      "updatealbum_work": "アルバムが編集されています",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "このアルバムとすべてのトラックを削除しますか？",
+      "artistandtracks": "このアーティストのすべてのトラック（他のアーティストのアルバムに含まれるものも）を削除しますか？",
+      "composerandtracks": "この作曲家のすべてのトラック（所属するアルバムに関係なく）を削除しますか？",
+      "genreandtracks": "このジャンルのすべてのトラック（所属するアルバムに関係なく）を削除しますか？",
+      "track": "上記のトラックを削除しますか？",
+      "playlist": "上記のプレイリストを削除しますか？ トラックは削除されません！",
+      "deleteincludingfiles": "$t(common.delete)、メディアファイルを含む"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "anmutunesが空だった場合、メディアパスが更新されます。これはすべてのインポートされたトラックの最長共通パスを反映します。このパスが正しくない場合は、「設定」の「$t(settings.files)」で「$t(settings.managefolders)」にチェックを入れてから、「$t(settings.changemediapath)」をクリックしてください。",
+        "second": "パスが正しいと確認できたら、「$t(settings.extractcovers)」ツールを使用してアルバムカバーを読み込むことができます。",
+        "third": "anmutunesが空でなかった場合、トラックは表示されますが、現在ではそのパスを修正することはできません。この機能は次のアップデートに含まれます。"
+      }
+    },
+    "emptyview": {
+      "nothinghere": "ここに何もありません",
+      "importlibrary": {
+        "first": "iTunesまたはApple Musicからライブラリ.xmlをインポートします（いずれもApple Inc.の登録商標）",
+        "second": "iTunes/Apple Music でファイル > ライブラリ > ライブラリーをエクスポート",
+        "third": "XMLファイルをここにドラッグしてください"
+      },
+      "importfiles": {
+        "first": "ファイルを追加するには：",
+        "second": "音楽やオーディオブックを含むフォルダをドラッグしてここにドロップします。",
+        "third": "または単一のトラックをこのようにドロップします。"
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "1024曲以上のプレイリストは並べ替えできません。"
+    },
+    "llminfo": {
+      "long": "この言語の翻訳はLLMによって生成されました。",
+      "short": "LLMによる翻訳",
+      "notice": "エラーがあった場合はGitHubでIssueを報告してください"
+    }
+  }
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>anmutunes</title>
+  %sveltekit.head%
+  <style>
+    :root {
+      /* THEME */
+      --background: #2b2b2b;
+      --background-active: #222222;
+      --background-hover: #1d1d1d;
+      --background-button: #363636;
+      --border-color: #161616;
+      --accent-input: #161616;
+      --warn: #aa0000;
+      --text: #ffffff;
+      --text-dim: #787878;
+      --text-highlight: #d7d7d7;
+      --shadow: #00000030;
+
+      /* STYLE */
+      --icons: var(--text);
+      --icons-dim: var(--text-dim);
+      --border: 1px solid var(--border-color);
+      --box-shadow: 0 5px 10px var(--shadow);
+      --radius-tiny: 0.3rem;
+      --radius-small: 0.5rem;
+      --radius-medium: 1rem;
+      --radius-app: 0.7rem;
+
+      --header-controls: 30px;
+      --header-height: 90px;
+      --header-gap: 4px;
+      --viewselect-height: 2rem;
+
+      --full-header-height: calc(var(--header-gap) + var(--header-height) + var(--header-gap) + var(--viewselect-height));
+      --footer-height: 30px;
+    }
+
+    [data-theme="light"] {
+      --background: #ffffff;
+      --background-active: #eae1e1;
+      --background-hover: #efe8e8;
+      --background-button: #f7f3f3;
+      --border-color: #d7d1d1;
+      --accent-input: #d7d1d1;
+      --warn: #aa0000;
+      --text: #222222;
+      --text-dim: #787878;
+      --text-highlight: #3b3b3b;
+      --shadow: #00000020;
+    }
+
+    [data-theme="custom"] {
+      --background: #ffffff;
+      --background-active: #eae1e1;
+      --background-hover: #efe8e8;
+      --background-button: #f7f3f3;
+      --border-color: #d7d1d1;
+      --accent-input: #d7d1d1;
+      --warn: #aa0000;
+      --text: #222222;
+      --text-dim: #787878;
+      --text-highlight: #3b3b3b;
+      --shadow: #00000020;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: "Ubuntu Sans", "NotoSansJP", "NotoSansKR", "NotoSansTC", sans-serif;
+      line-height: 1.5;
+      color: var(--text);
+      background-color: transparent;
+      /*user-select: none; TODO: use this on all elements that should not be selectable.*/
+    }
+
+    @font-face {
+      font-family: 'Ubuntu Sans';
+      src: url('fonts/UbuntuSans/UbuntuSans[wdth,wght].woff2') format('woff2'),
+        url('fonts/UbuntuSans/UbuntuSans[wdth,wght].woff') format('woff');
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: 'NotoSansJP';
+      src: url('fonts/NotoSans/NotoSansJP-VariableFont_wght.ttf') format('truetype');
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: 'NotoSansKR';
+      src: url('fonts/NotoSans/NotoSansKR-VariableFont_wght.ttf') format('truetype');
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: 'NotoSansTC';
+      src: url('fonts/NotoSans/NotoSansTC-VariableFont_wght.ttf') format('truetype');
+      font-weight: 200;
+    }
+
+    html,
+    body {
+      height: 100dvh;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background);
+      border-radius: var(--radius-app);
+      overflow: hidden;
+    }
+
+    button {
+      display: flex;
+      justify-content: center;
+      border: none;
+      border-radius: var(--radius-small);
+      background: var(--background-button);
+      cursor: pointer;
+      align-items: center;
+    }
+
+    a {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    button.no-bg {
+      background: none;
+    }
+
+    button.active {
+      background-color: var(--background-active);
+      color: var(--text-dim);
+    }
+
+    button:hover {
+      background: var(--background-hover);
+    }
+
+    textarea {
+      background-color: var(--background-active);
+      border-radius: var(--radius-small);
+      border: none;
+    }
+
+    input {
+      background-color: var(--background-active);
+      border-radius: var(--radius-small);
+      accent-color: var(--accent-input);
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="text"],
+    input[type="search"],
+    input[type="number"] {
+      padding: 0.5rem;
+      cursor: text;
+    }
+
+    input[type="datetime-local"] {
+      padding: 0.5rem;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      height: 12px;
+      width: 12px;
+      -webkit-appearance: none;
+      /* TODO: style handle to be var(--text) on linux? */
+    }
+
+    input[type="checkbox"]:not(:checked) {
+      accent-color: unset;
+    }
+
+    input[type="color"] {
+      border: var(--border);
+    }
+
+    label {
+      cursor: pointer;
+    }
+
+    a {
+      color: var(--text-highlight);
+    }
+
+    img {
+      /* removes empty space below image */
+      display: block;
+    }
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+
+    .table-head {
+      background-color: var(--background);
+      border-bottom: var(--border);
+      padding: 0 2rem;
+    }
+
+    .table-heading {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-weight: bold;
+      justify-content: left;
+    }
+
+    button.up::after,
+    button.down::after {
+      content: " ";
+      position: relative;
+      left: 5px;
+      border: 5px solid transparent;
+    }
+
+    button.up::after {
+      bottom: 4px;
+      border-bottom-color: var(--text);
+    }
+
+    button.down::after {
+      top: 2px;
+      border-top-color: var(--text);
+    }
+
+    .table-row {
+      width: 100%;
+      cursor: pointer;
+      padding: 0 2rem;
+    }
+
+    .table-row:has(.table-data):hover {
+      background-color: var(--background-active);
+    }
+
+    .table-data {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: pre;
+      padding: 0 8px;
+      align-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  %sveltekit.body%
+</body>
+
+</html>

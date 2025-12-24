@@ -1,0 +1,11 @@
+{
+  "bundle": {
+    "resources": { "vlc/windows/": "./" },
+    "windows": {
+      "webviewInstallMode": {
+        "silent": true,
+        "type": "embedBootstrapper"
+      }
+    }
+  }
+}

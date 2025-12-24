@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Όνομα",
+      "description": "Περιγραφή",
+      "track_one": "Κουτί",
+      "track_other": "Κουτιά",
+      "title": "Τίτλος",
+      "artist_one": "Καλλιτέχνης",
+      "artist_other": "Καλλιτεχνείς",
+      "composer_one": "Συθέτης",
+      "composer_other": "Συθέτες",
+      "album_one": "Άλμπουμ",
+      "album_other": "Άλμπουμ",
+      "albumartist": "Αρτίστης Άλμπουμ",
+      "genre_one": "Είδος",
+      "genre_other": "Είδη",
+      "cdnumber": "Αριθμός CD",
+      "cdnumber_long": "Αριθμός CD",
+      "tracknumber": "Αριθμός Κομματιού",
+      "tracknumber_long": "Τίτλος Αριθμήματος",
+      "tracklength": "Διάρκεια",
+      "playlist_one": "Λίστα Αναπαραγωγής",
+      "playlist_other": "Λίστες Αναπαραγωγής",
+      "year": "Έτος",
+      "release": "Εκδότης",
+      "release_long": "Ημερομηνία Εξόδου",
+      "added": "Προσθήκη",
+      "cover": "Κάλυμμα",
+      "emptylist": "Κενή Λίστα",
+      "listisempty": "Αυτή η λίστα είναι κενή",
+      "newplaylist": "Νέα Λίστα Αναπαραγωγής",
+      "mediapath": "Μονοπάτι Μηχανήματος",
+      "present": "παρών",
+      "save": "Αποθήκευση",
+      "abort": "Ακύρωση",
+      "yes": "Ναι",
+      "no": "Όχι",
+      "close": "Κλείσιμο",
+      "delete": "Διαγραφή",
+      "system": "Σύστημα"
+    },
+    "viewselect": {
+      "recents": "Πρόσφατα Προσθέμενα",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Φόντο",
+      "background_active": "Ενεργό Φόντο",
+      "background_hover": "Αλληλεπίδραση Φόντου",
+      "background_button": "Κούμπι Φόντου",
+      "border": "Οριοθετεί",
+      "accent": "Τόνισμα Εισόδου",
+      "warn": "Προειδοποίηση",
+      "text": "Κείμενο",
+      "text_dim": "Κείμενο Διασταλμένο",
+      "text_highlight": "Υπερκείμενο Κείμενο",
+      "shadow": "Σκιές"
+    },
+    "contextmenu": {
+      "play": "Αναπαραγωγή",
+      "playrandom": "Τυχαία Αναπαραγωγή",
+      "playnext": "Επόμενη Αναπαραγωγή",
+      "addqueue": "Προσθήκη στη Queue",
+      "addplaylist": "Προσθήκη σε Λίστα Αναπαραγωγής",
+      "showartist": "Εμφάνιση Καλλιτέχνη",
+      "showgenre": "Εμφάνιση Είδους",
+      "showalbum": "Εμφάνιση Άλμπουμ",
+      "showcomposer": "Εμφάνιση Συθέτη",
+      "showplaylist": "Εμφάνιση Λίστας Αναπαραγωγής",
+      "showlyrics": "Εμφάνιση Στίχων",
+      "openpath": "Άνοιγμα Μονοπατιού Περιεκτικότητας",
+      "showsimilar": "Εμφάνιση Ομοίων",
+      "rating": "Βαθμολογία",
+      "info": "Πληροφορίες",
+      "edit": "Επεξεργασία",
+      "delete": "Διαγραφή",
+      "extractcover": "Έκδοση Καλύμματος"
+    },
+    "edit": {
+      "cannotedit": "Αυτά τα Δεδομένα Δεν Μπορούν Να Επεξηγηθούν",
+      "editalbum": "Επεξεργασία Άλμπουμ",
+      "editartist": "Επεξεργασία Καλλιτέχνη",
+      "editcomposer": "Επεξεργασία Συνθέτη",
+      "editgenre": "Επεξεργασία Είδους",
+      "editplaylist": "Επεξεργασία Λίστας Αναπαραγωγής",
+      "newplaylist": "Νέα Λίστα Αναπαραγωγής",
+      "edittrack": "Επεξεργασία Τίτλου",
+      "sort_album": "Ταξινόμηση Άλμπουμ"
+    },
+    "import": {
+      "importlibrary": "Εισαγωγή Βιβλιοθήκης;"
+    },
+    "mediapath": {
+      "currentmediapath": "Τρέχον Μονοπάτι Μηχανήματος",
+      "draganddroppath": "Για Αλλαγή Σέρνετε τον Κατάλογο στο Παράθυρο",
+      "newmediapath": "Νέο Μονοπάτι Μηχανήματος",
+      "explain": "Ενημερώνει τον πάθος όλων των αρχείων μέσων που βρίσκονται στον ανωτέρω πάθο. Τα αρχεία δεν θα αντιγράφονται ή θα μεταφερθούν, αυτό πρέπει να γίνει χειροκίνητα."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Δημιουργία Νέας Λίστας Αναπαραγωγής",
+      "namenewplaylist": "Όνομα Νέας Λίστα Αναπαραγωγής"
+    },
+    "queue": {
+      "queue": "Queue",
+      "history": "Ιστορικό"
+    },
+    "settings": {
+      "settings": "Ρυθμίσεις",
+      "general": "Γενικά",
+      "playback": "Αναπαραγωγή",
+      "files": "Αρχεία",
+      "tools": "Εργαλεία",
+      "theme": {
+        "theme": "Θέμα",
+        "system": "Σύστημα",
+        "dark": "Σκούρο",
+        "light": "Φωτεινό",
+        "custom": "Προσαρμοσμένο",
+        "editcolors": "Επεξεργασία Χρωμάτων",
+        "resetlight": "Επαναφορά Φωτεινών",
+        "resetdark": "Επαναφορά Σκουρών"
+      },
+      "startupview": "Άποψη Εκκίνησης",
+      "language": "Γλώσσα",
+      "searchforupdates": "Αυτόματη Ανάκτηση Ενημερώσεων",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Αλλαγή Μονοπατιού Μηχανήματος",
+      "managefolders": "Διαχείριση Αρχείων Μηχανήματος",
+      "managefolders_explain_active": "Κατά την Προσθήκη, Τα Μέσα Αναπαράγονται σε Υποκαταλόγους Καλλιτεχνών και Τίτλου Άλμπουμ.",
+      "managefolders_explain_inactive": "Κατά την Προσθήκη των Μεσών, Η Αναρμόζει Ούτως.",
+      "copynotcopiedmedia": "Αντιγραφή Μη Αντιγράφων Μηχανημάτων (Δεν Διαγράφεται)",
+      "allowdelete": "Επιτρέψτε τη Διαγραφή",
+      "allowdelete_active": "Οι Εγγραφές Της Βάσης Δεν Μπορούν Να Διαγραφούν.",
+      "allowdelete_inactive": "Δεν Υπάρχει Τροπος Να Διαγραφεί Αναρμόζετε.",
+      "allowdeletefiles": "Επιτρέψτε τη Διαγραφή Αρχείων",
+      "allowdeletefiles_active": "Με Αίτημα, Τα Αντιστοιχά Αρχεία Διαγράφονται.",
+      "allowdeletefiles_inactive": "Δεν Υπάρχει Τροπος Να Διαγραφεί Αναρμόζετε.",
+      "extractcovers": "Ξεχωριστές Κάλυμματα",
+      "extractcovers_explain": "Ελέγχεται Τα Μεταδοτικά Δεδομένα Απο Κομματιών Απο Άλμπουμ Χωρίς Κάλυμμα. Η Πρώτη Προεπιλεγμένη Από Τα Μεταδοτικά Δείχνει Το Έκδοση.",
+      "showmissingtracks": "Εμφάνιση Αναπαραγωγής Τρακτέρ",
+      "showmissingtracks_explain": "Αποκαλύπτεται Μια Επισκόπηση Απο Των Κομματιών Που Δεν Είναι Προσβάσιμα. Στην Επισκόπηση Μπορείτε Να Ανοίξετε Από Άλλοι Τόποι.",
+      "standardisenames": "Ομοιομορφία Ονομάτων",
+      "standardisenames_explain": "Αυτό Επιτρέπει Την Ανάπτυξη Των Ονομάτων Από Άλμπουμ, Καλλιτεχνές, Συθέτες, Είδη.",
+      "extractmetadata": "Έκδοση Μεταδοτικών Δεδομένων",
+      "extractmetadata_explain": "Δημιουργείται Για Κάθε Κομμάτι Τα Μεταδοτικά Δείχνει Το Έκδοση. Οι Μανουαλικές Αλλαγές Επιστρέφονται.",
+      "support_please": "Αν Σας Αρεσκεί Αναρμόζετε, Θα Συμβούλεψα Να Πληρώσετε",
+      "updatesarehere": "Οι ενημερώσεις μπορούν να βρεθούν εδώ:"
+    },
+    "setup": {
+      "setup": "Εγκατάσταση",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Αυτός Ο Κατάλογος Αναζητάται Από Την Εκκίνηση Αναρμόζετε Για Νέες Αρχεία.",
+      "searchforupdates_active_explain": "Όταν Ένα Νέο Έκδοση Είναι Διαθέσιμο Δείχνει Μια Προειδοποίηση.",
+      "searchforupdates_inactive_explain": "Δεν Αναζητάται Για Ενημερώσεις."
+    },
+    "tutorial": {
+      "tutorial": "Οδηγός",
+      "ccmessage": "Όλα τα αρχεία που χρησιμοποιούνται στον οδηγό είναι άδεια Creative Commons.",
+      "attributions": "Όλες οι αποδοχές μπορούν να βρεθούν στο παρακάτω σύνδεσμο:"
+    },
+    "sections": {
+      "today": "Σήμερα",
+      "lastweek": "Προηγούμενη Εβδομάδα",
+      "lastmonth": "Προηγούμενο Μήνα",
+      "lastthreemonths": "Προηγούμενα Τρεις Μήνες",
+      "lastsixmonths": "Προηγούμενα Έξι Μήνες",
+      "thisyear": "Αυτό Το Έτος"
+    },
+    "times": {
+      "year_one": "Έτος",
+      "year_other": "Έτη",
+      "year_short": "Ε",
+      "month_one": "Μήνας",
+      "month_other": "Μήνες",
+      "month_short": "Μ",
+      "week_one": "Εβδομάδα",
+      "week_other": "Εβδομάδες",
+      "week_short": "Ε",
+      "day_one": "Ημέρα",
+      "day_other": "Ημέρες",
+      "day_short": "Η",
+      "hour_one": "Ώρα",
+      "hour_other": "Ώρες",
+      "hour_short": "ώ",
+      "minute_one": "Λεπτό",
+      "minute_other": "Λεπτά",
+      "minute_short": "λ",
+      "second_one": "Δευτερόλεπτο",
+      "second_other": "Δευτερόλεπτα",
+      "second_short": "δ"
+    },
+    "centercontent": {
+      "coverextract_work": "Εξαγωγή καλύψεων",
+      "coverextract_done": "Τα καλύσματα έχουν εξαχθεί",
+      "libraryimport_work": "Η βιβλιοθήκη εισάγεται",
+      "libraryimport_done": "Η βιβλιοθήκη ειναι έτοιμη",
+      "fileimport_work": "Εισαγωγή αρχείων",
+      "fileimport_done": "Τα αρχεία έχουν εισαχθεί",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Διαγραφή ολοκληρωμένη",
+      "updatetracks_work": "Επεξεργασία τίτλων",
+      "updatetracks_done": "Η επεξεργασία είναι ολοκληρωμένη",
+      "updatealbum_work": "Επεξεργασία άλμπουμ",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Διαγραφή του άλμπουμ και όλων των τίτλων;",
+      "artistandtracks": "Διαγραφή όλων των τίτλων αυτού του καλλιτέχνη, συμπεριλαμβανομένων εκείνων που ανήκουν σε άλμπουμ άλλων καλλιτεχνών;",
+      "composerandtracks": "Διαγραφή όλων των τίτλων αυτού του συνθέτη, ανεξάρτητα από τα άλμπουμ στα οποία ανήκουν;",
+      "genreandtracks": "Διαγραφή όλων των τίτλων που ανήκουν σε αυτό το είδος, ανεξάρτητα από τα άλμπουμ στα οποία ανήκουν;",
+      "track": "Διαγραφή του παραπάνω τίτλου;",
+      "playlist": "Διαγραφή της παραπάνω λίστας αναπαραγωγής? Δεν θα διαγραφεί κανένας τίτλος!",
+      "deleteincludingfiles": "$t(common.delete), συμπεριλαμβανομένων αρχείων"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Αν το anmutunes ήταν προηγουμένως άδειο, ο φάκελός σας έχει αλλάξει. Αποτελείται τώρα από τον πιο μακρύ κοινό πάθο όλων των εισαγόμενων τίτλων. Αν ο πάθος δεν είναι σωστός, βεβαιωθείτε ότι έχετε επιλέξει το κουτί \"$t(settings.managefolders)\" στις ρυθμίσεις υπό \"$t(settings.files)\". Μετά από αυτό μπορείτε να πατήσετε στο κουμπί \"$t(settings.changemediapath)\".",
+        "second": "Όταν ο πάθος είναι σωστός, μπορείτε να χρησιμοποιήσετε το εργαλείο \"$t(settings.extractcovers)\" για να φορτώσετε τα καλύσματα των άλμπουμ.",
+        "third": "Αν το anmutunes δεν ήταν άδειο, οι τίτλοι θα εμφανίζονται, αλλά ο πάθος τους δεν μπορεί να διορθωθεί αυτή τη στιγμή. Αυτή η λειτουργικότητα θα προστεθεί στην επόμενη ενημέρωση."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Εδώ φαίνεται πως δεν υπάρχει τίποτα",
+      "importlibrary": {
+        "first": "Εισαγωγή αρχείου βιβλιοθήκης.xml από iTunes ή Apple Music (όλα τα εγγεγραμμένα σήματα ανήκουν στην Apple Inc.)",
+        "second": "Στο iTunes/Apple Music πατήστε Αρχείο > Βιβλιοθήκη > Εξαγωγή βιβλιοθήκης",
+        "third": "Συρθείτε το XML αρχείο εδώ"
+      },
+      "importfiles": {
+        "first": "Για να προσθέσετε αρχεία:",
+        "second": "Συρθείτε ένα φάκελο με μουσική ή аудиολίβρους εδώ.",
+        "third": "Η ίδια διαδικασία ισχύει και για μόνα τίτλους."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Οι λιστες αναπαραγωγής με περισσότερους από 1024 τίτλους δεν μπορούν να ταξινομηθούν."
+    },
+    "llminfo": {
+      "long": "Η μετάφραση για αυτή τη γλώσσα δημιουργήθηκε από ένα LLM.",
+      "short": "Μετάφραση LLM",
+      "notice": "Δημιουργήστε ένα ζήτημα στο GitHub για λάθη"
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Naam",
+      "description": "Omschrijving",
+      "track_one": "Nummer",
+      "track_other": "Nummers",
+      "title": "Titel",
+      "artist_one": "Artiest",
+      "artist_other": "Artisten",
+      "composer_one": "Componist",
+      "composer_other": "Componisten",
+      "album_one": "Album",
+      "album_other": "Albums",
+      "albumartist": "Albumartiest",
+      "genre_one": "Genre",
+      "genre_other": "Genres",
+      "cdnumber": "CD #",
+      "cdnumber_long": "CD Nummer",
+      "tracknumber": "Nummer #",
+      "tracknumber_long": "Titel Nummer",
+      "tracklength": "Duur",
+      "playlist_one": "Afanglijst",
+      "playlist_other": "Afanglijsten",
+      "year": "Jaar",
+      "release": "Uitgegeven",
+      "release_long": "Uitgiftedatum",
+      "added": "Toegevoegd",
+      "cover": "Cover",
+      "emptylist": "Lege Lijst",
+      "listisempty": "Deze lijst is leeg",
+      "newplaylist": "Nieuwe Afganglijst",
+      "mediapath": "Media Pad",
+      "present": "Huidig",
+      "save": "Opslaan",
+      "abort": "Annuleren",
+      "yes": "Ja",
+      "no": "Nee",
+      "close": "Sluiten",
+      "delete": "Verwijderen",
+      "system": "Systeem"
+    },
+    "viewselect": {
+      "recents": "Laatst toegevoegd",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Achtergrond",
+      "background_active": "Achtergrond Actief",
+      "background_hover": "Interactie Achtergrond",
+      "background_button": "Achtergrond Knop",
+      "border": "Rand",
+      "accent": "Invulinvers",
+      "warn": "Waarschuwing",
+      "text": "Tekst",
+      "text_dim": "Tekst Gedaald",
+      "text_highlight": "Tekst Hervorheven",
+      "shadow": "Schatten"
+    },
+    "contextmenu": {
+      "play": "Afspelen",
+      "playrandom": "Willekeurig afspelen",
+      "playnext": "Speel Volgende",
+      "addqueue": "Voeg aan Wachtrij toe",
+      "addplaylist": "Voeg Afganglijst toe",
+      "showartist": "Bekijk Artiest",
+      "showgenre": "Bekijk Genre",
+      "showalbum": "Bekijk Album",
+      "showcomposer": "Bekijk Componist",
+      "showplaylist": "Bekijk Afganglijst",
+      "showlyrics": "Bekijk Tekst",
+      "openpath": "Open Pad",
+      "showsimilar": "Toon Vergelijkbare",
+      "rating": "Beoordeel",
+      "info": "Info",
+      "edit": "Bewerk",
+      "delete": "Verwijderen",
+      "extractcover": "Extract Cover"
+    },
+    "edit": {
+      "cannotedit": "Deze gegevens kunnen niet worden bewerkt",
+      "editalbum": "Album bewerken",
+      "editartist": "Artiest bewerken",
+      "editcomposer": "Componist bewerken",
+      "editgenre": "Genre bewerken",
+      "editplaylist": "Afspeellijst bewerken",
+      "newplaylist": "Nieuwe afspeellijst",
+      "edittrack": "Track bewerken",
+      "sort_album": "Sorteertitel"
+    },
+    "import": {
+      "importlibrary": "Importeer Bibliotheek?"
+    },
+    "mediapath": {
+      "currentmediapath": "Huidige Media Pad",
+      "draganddroppath": "Sleep de map hier binnen om te wijzigen",
+      "newmediapath": "Nieuwe Media Pad",
+      "explain": "Werk de pad van alle mediabestanden bij die in het bovenstaande pad worden gevonden. De bestanden worden niet gekopieerd of verplaatst, dit moet handmatig gebeuren."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Nieuwe afspeellijst aanmaken",
+      "namenewplaylist": "Naam Nieuwe Afganglijst"
+    },
+    "queue": {
+      "queue": "Wachtrij",
+      "history": "Geschiedenis"
+    },
+    "settings": {
+      "settings": "Instellingen",
+      "general": "Algemeen",
+      "playback": "Afspelen",
+      "files": "Bestanden",
+      "tools": "Gereedschap",
+      "theme": {
+        "theme": "Thema",
+        "system": "Systeem",
+        "dark": "Donker",
+        "light": "Licht",
+        "custom": "Aangepast",
+        "editcolors": "Bewerk Kleuren",
+        "resetlight": "Herstel Licht",
+        "resetdark": "Herstel Donker"
+      },
+      "startupview": "Startweergave",
+      "language": "Taal",
+      "searchforupdates": "Automatisch naar updates zoeken",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Wijzig Media Pad",
+      "managefolders": "Beheer Media Mappen",
+      "managefolders_explain_active": "Bijdragen media worden gekopieerd in submappen van albumartiest en albumtitel.",
+      "managefolders_explain_inactive": "Bijdragen media wordt bijgehouden in hun huidige pad.",
+      "copynotcopiedmedia": "Niet-gekopieerde Media Kopiëren (verwijdert geen bestanden)",
+      "allowdelete": "Verwijderen uit aanmuten toestaan",
+      "allowdelete_active": "Invoerregels kunnen worden verwijderd.",
+      "allowdelete_inactive": "Er is geen mogelijkheid invoerregels te verwijderen.",
+      "allowdeletefiles": "Verwijderen van bestanden toestaan",
+      "allowdeletefiles_active": "Op verzoek worden ook de overeenkomstige bestanden verwijderd.",
+      "allowdeletefiles_inactive": "Er is geen mogelijkheid vanuit aanmuten bestanden te verwijderen.",
+      "extractcovers": "Missende Covers Extraheren",
+      "extractcovers_explain": "Controleert metadata van tracks uit albums zonder covers. Het eerste in de metadata gevonden cover wordt geëxtraheerd.",
+      "showmissingtracks": "Missende Tracks Tonen",
+      "showmissingtracks_explain": "Toont een overzicht van alle tracks die niet kunnen worden gevonden. In het overzicht is het mogelijk deze op andere plaatsen te zoeken.",
+      "standardisenames": "Namen Standaardiseren",
+      "standardisenames_explain": "Maakt het mogelijk de namen van albums, artiesten, componisten, genres te standaardiseren.",
+      "extractmetadata": "Metadata Extraheren",
+      "extractmetadata_explain": "Extraheert voor elke track metadata. Handmatige wijzigingen worden overschreven.",
+      "support_please": "Als je aanmuten leuk vindt zou ik een steunbetaling waarderen",
+      "updatesarehere": "Updates kunnen hier worden gevonden:"
+    },
+    "setup": {
+      "setup": "Setup",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Deze map wordt doorzocht naar nieuwe bestanden bij het starten van aanmuten.",
+      "searchforupdates_active_explain": "Als een nieuwe versie beschikbaar is, ontvang je een melding.",
+      "searchforupdates_inactive_explain": "Er wordt niet automatisch naar updates gezocht."
+    },
+    "tutorial": {
+      "tutorial": "Tutorial",
+      "ccmessage": "Alle bestanden die in het tutorial worden gebruikt zijn Creative Commons gelicenseerd.",
+      "attributions": "Alle attributies kunnen onder de volgende link worden gevonden:"
+    },
+    "sections": {
+      "today": "Vandaag",
+      "lastweek": "Afgelopen Week",
+      "lastmonth": "Afgelopen Maand",
+      "lastthreemonths": "Afgelopen 3 Maanden",
+      "lastsixmonths": "Afgelopen 6 Maanden",
+      "thisyear": "Dit Jaar"
+    },
+    "times": {
+      "year_one": "Jaar",
+      "year_other": "Jaren",
+      "year_short": "J",
+      "month_one": "Maand",
+      "month_other": "Maanden",
+      "month_short": "M",
+      "week_one": "Week",
+      "week_other": "Weken",
+      "week_short": "W",
+      "day_one": "Dag",
+      "day_other": "Dagen",
+      "day_short": "D",
+      "hour_one": "Uur",
+      "hour_other": "Uren",
+      "hour_short": "u",
+      "minute_one": "Minuur",
+      "minute_other": "Minuten",
+      "minute_short": "m",
+      "second_one": "Seconde",
+      "second_other": "Seconden",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "Covers worden geëxtraheerd",
+      "coverextract_done": "Covers zijn geëxtraheerd",
+      "libraryimport_work": "Bibliotheek wordt geïmporteerd",
+      "libraryimport_done": "Bibliotheek is geïmporteerd",
+      "fileimport_work": "Bestanden worden geïmporteerd",
+      "fileimport_done": "Bestanden zijn geïmporteerd",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Verwijderen voltooid",
+      "updatetracks_work": "Tracks worden bewerkt",
+      "updatetracks_done": "Bewerken voltooid",
+      "updatealbum_work": "Album wordt bewerkt",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Het album en alle tracks verwijderen?",
+      "artistandtracks": "Alle tracks van deze artiest verwijderen, ook die welke bij albums van andere artiesten horen?",
+      "composerandtracks": "Alle tracks van deze componist verwijderen, ongeacht het album waar ze toe behoren?",
+      "genreandtracks": "Alle tracks die tot dit genre behoren verwijderen, ongeacht het album waar ze toe behoren?",
+      "track": "De bovenstaande track verwijderen?",
+      "playlist": "De bovenstaande afspeellijst verwijderen? Er worden geen tracks verwijderd!",
+      "deleteincludingfiles": "$t(common.delete), inclusief bestanden"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Als anmutunes eerder leeg was, is je mediapad aangepast. Dit pad komt overeen met de langste gezamenlijke pad van alle geïmporteerde tracks. Indien dit pad niet correct is, zorg er dan voor dat in de instellingen onder \"$t(settings.files)\" een vinkje gezet is bij \"$t(settings.managefolders)\". Daarna kun je op \"$t(settings.changemediapath)\" klikken.",
+        "second": "Zodra het pad correct is, kan het \"$t(settings.extractcovers)\" gereedschap gebruikt worden om de album covers te laden.",
+        "third": "Als anmutunes niet leeg was, worden de tracks wel weergegeven, maar hun pad kan momenteel nog niet gecorrigeerd worden. Deze functionaliteit zal in de volgende update beschikbaar komen."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Hier lijkt er nog niets te zijn",
+      "importlibrary": {
+        "first": "Importeer een bibliotheek.xml van iTunes of Apple Music (beide geregistreerde merken van Apple Inc.)",
+        "second": "In iTunes/Apple Music klik op Bestand > Bibliotheek > Bibliotheek exporteren.",
+        "third": "Sleep de XML-bestand hierheen"
+      },
+      "importfiles": {
+        "first": "Om bestanden toe te voegen:",
+        "second": "Sleep een map met muziek of audioboeke hierheen.",
+        "third": "Of doe hetzelfde voor enkele tracks."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Afspeellijsten met meer dan 1024 tracks kunnen niet worden gesorteerd."
+    },
+    "llminfo": {
+      "long": "De vertaling voor deze taal is gegenereerd door een LLM.",
+      "short": "LLM-vertaling",
+      "notice": "Maak een issue op GitHub aan voor fouten"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "bundle": {
+    "linux": {
+      "appimage": {
+        "bundleMediaFramework": false
+      },
+      "deb": {
+        "depends": ["libvlc-bin", "vlc-plugin-base"]
+      },
+      "rpm": {
+        "depends": ["vlc-libs", "vlc-plugins-base"]
+      }
+    }
+  }
+}

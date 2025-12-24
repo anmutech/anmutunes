@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Jméno",
+      "description": "Popis",
+      "track_one": "Skladba",
+      "track_other": "Skupiny",
+      "title": "Název",
+      "artist_one": "Umělec",
+      "artist_other": "Umělci",
+      "composer_one": "Kompozitor",
+      "composer_other": "Kompozitoři",
+      "album_one": "Album",
+      "album_other": "Alba",
+      "albumartist": "Albumový umělec",
+      "genre_one": "Žánr",
+      "genre_other": "Žánry",
+      "cdnumber": "Číslo CD",
+      "cdnumber_long": "Číslo CD",
+      "tracknumber": "Pořadí skladby",
+      "tracknumber_long": "Pořadí skladby",
+      "tracklength": "Délka",
+      "playlist_one": "Seznam skladeb",
+      "playlist_other": "Seznamy skladeb",
+      "year": "Rok",
+      "release": "Uveřejnění",
+      "release_long": "Datum vydání",
+      "added": "Přidáno",
+      "cover": "Obal",
+      "emptylist": "Prázdný seznam",
+      "listisempty": "Tento seznam je prázdný",
+      "newplaylist": "Nová playlist",
+      "mediapath": "Cesta k médiím",
+      "present": "přítomen",
+      "save": "Uložit",
+      "abort": "Zrušit",
+      "yes": "Ano",
+      "no": "Ne",
+      "close": "Zavřít",
+      "delete": "Smazat",
+      "system": "Systém"
+    },
+    "viewselect": {
+      "recents": "Poslední přidáno",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Pozadí",
+      "background_active": "Aktivní pozadí",
+      "background_hover": "Interakce pozadí",
+      "background_button": "Tlačítko pozadí",
+      "border": "Okraj",
+      "accent": "Akcent vstupu",
+      "warn": "Varování",
+      "text": "Text",
+      "text_dim": "Ztlumený text",
+      "text_highlight": "Vybráný text",
+      "shadow": "Stín"
+    },
+    "contextmenu": {
+      "play": "Přehrát",
+      "playrandom": "Náhodná přehrávka",
+      "playnext": "Hrá se dál",
+      "addqueue": "Přidat do fronty",
+      "addplaylist": "Přidat do playlistu",
+      "showartist": "Ukázat umělce",
+      "showgenre": "Ukázat žánr",
+      "showalbum": "Ukázat album",
+      "showcomposer": "Ukázat kompozitora",
+      "showplaylist": "Ukázat playlist",
+      "showlyrics": "Ukázat text písně",
+      "openpath": "Otevřít obsahující cestu",
+      "showsimilar": "Ukázat podobné",
+      "rating": "Hodnocení",
+      "info": "Informace",
+      "edit": "Upravit",
+      "delete": "Smazat",
+      "extractcover": "Extrahovat obal"
+    },
+    "edit": {
+      "cannotedit": "Tyto data nelze upravit",
+      "editalbum": "Upravit album",
+      "editartist": "Upravit interpreta",
+      "editcomposer": "Upravit skladatele",
+      "editgenre": "Upravit žánr",
+      "editplaylist": "Upravit playlist",
+      "newplaylist": "Nová playlist",
+      "edittrack": "Upravit skladebku",
+      "sort_album": "Třídit název alba"
+    },
+    "import": {
+      "importlibrary": "Importovat knihovnu?"
+    },
+    "mediapath": {
+      "currentmediapath": "Aktuální cesta k médiím",
+      "draganddroppath": "Chcete-li změnit, přetažte složku do tohoto okna",
+      "newmediapath": "Nová cesta k médiím",
+      "explain": "Aktualizuje cestu všech mediálních souborů nalezených v uvedené cestě. Soubory nebudou kopírovány nebo přesunuty, to musíte udělat ručně."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Vytvořit novou playlist",
+      "namenewplaylist": "Jméno nové playlisty"
+    },
+    "queue": {
+      "queue": "Fronta",
+      "history": "Historie"
+    },
+    "settings": {
+      "settings": "Nastavení",
+      "general": "Obecné",
+      "playback": "Přehrávání",
+      "files": "Soubory",
+      "tools": "Nástroje",
+      "theme": {
+        "theme": "Téma",
+        "system": "Systém",
+        "dark": "Tmavé",
+        "light": "Světlé",
+        "custom": "Vlastní",
+        "editcolors": "Upravit barvy",
+        "resetlight": "Reset světlých",
+        "resetdark": "Reset tmavých"
+      },
+      "startupview": "Pozadí spuštění",
+      "language": "Jazyk",
+      "searchforupdates": "Automaticky hledat aktualizace",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Změnit cestu k médiím",
+      "managefolders": "Správa médií",
+      "managefolders_explain_active": "Při přidávání se média kopírují do podadresářů podle alba a umělce.",
+      "managefolders_explain_inactive": "Při přidávání se aktualní cesta k mediím ukládá.",
+      "copynotcopiedmedia": "Zkopírovat nenakopírované média (neodstraňuje soubory)",
+      "allowdelete": "Povolit mazání z anmutunes",
+      "allowdelete_active": "Vstupy z databáze lze smazat.",
+      "allowdelete_inactive": "Není možné mazat vstupy.",
+      "allowdeletefiles": "Povolit mazání souborů",
+      "allowdeletefiles_active": "Na požadavek se také smažou odpovídající soubory.",
+      "allowdeletefiles_inactive": "Nelze mazat soubory z anmutunes.",
+      "extractcovers": "Extrahovat chybějící obaly",
+      "extractcovers_explain": "Zkontroluje metadata skladeb z alb bez obalů. První nalezený obal v metadatech bude extrahován.",
+      "showmissingtracks": "Ukázat chybějící skladby",
+      "showmissingtracks_explain": "Zobrazí přehled všech nedosažitelných skladeb. V přehledu je možné hledat na jiných místech.",
+      "standardisenames": "Vyrovnat názvy",
+      "standardisenames_explain": "Povoluje vyrovnání jmen alb, umělců, kompozitorů a žánrů.",
+      "extractmetadata": "Extrahovat metadata",
+      "extractmetadata_explain": "Extrahuje metadata pro každou skladbu. Manuální změny budou přepsány.",
+      "support_please": "Pokud se vám anmutunes líbí, rád bych si přeal o vaši podporu",
+      "updatesarehere": "Aktualizace zde:"
+    },
+    "setup": {
+      "setup": "Nastavení",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Tato složka bude při spuštění anmutunes prohledávána na nové soubory.",
+      "searchforupdates_active_explain": "Pokud je k dispozici nová verze, zobrazí se oznámení.",
+      "searchforupdates_inactive_explain": "Nelze hledat aktualizace."
+    },
+    "tutorial": {
+      "tutorial": "Návod",
+      "ccmessage": "Všechny soubory používané v návodu jsou licencovány pod Creative Commons.",
+      "attributions": "Všechny atribucí naleznete na následujícím odkazu:"
+    },
+    "sections": {
+      "today": "Dnes",
+      "lastweek": "Minulý týden",
+      "lastmonth": "Minulý měsíc",
+      "lastthreemonths": "Poslední 3 měsíce",
+      "lastsixmonths": "Posledních 6 měsíců",
+      "thisyear": "Tento rok"
+    },
+    "times": {
+      "year_one": "Rok",
+      "year_other": "Roky",
+      "year_short": "R",
+      "month_one": "Měsíc",
+      "month_other": "Měsíce",
+      "month_short": "M",
+      "week_one": "Týden",
+      "week_other": "Týdny",
+      "week_short": "T",
+      "day_one": "Den",
+      "day_other": "Dny",
+      "day_short": "D",
+      "hour_one": "Hodina",
+      "hour_other": "Hodiny",
+      "hour_short": "h",
+      "minute_one": "Minuta",
+      "minute_other": "Minuty",
+      "minute_short": "m",
+      "second_one": "Sekunda",
+      "second_other": "Sekundy",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "Obaly se extrahují",
+      "coverextract_done": "Obaly byly extrahovány",
+      "libraryimport_work": "Knihovna se importuje",
+      "libraryimport_done": "Knihovna byla importována",
+      "fileimport_work": "Soubory se importují",
+      "fileimport_done": "Soubory byly importovány",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Smazání dokončeno",
+      "updatetracks_work": "Skladebky se upravují",
+      "updatetracks_done": "Úprava dokončena",
+      "updatealbum_work": "Album se upravuje",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Smazat album a všechny skladebky?",
+      "artistandtracks": "Smazat všechny skladebky tohoto interpreta, včetně těch patřících k albům jiných interpretů?",
+      "composerandtracks": "Smazat všechny skladebky tohoto skladatele, nezávisle na albách, ke kterým patří?",
+      "genreandtracks": "Smazat všechny skladebky tohoto žánru, nezávisle na albách, ke kterým patří?",
+      "track": "Smazat uvedenou skladebku?",
+      "playlist": "Smazat uvedenou playlist? Nebudou smazány žádné skladebky!",
+      "deleteincludingfiles": "$t(common.delete), včetně souborů"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Pokud byla knižnica před importováním prázdná, změnila se vaše mediální složka. Nyní odpovídá nejdelší společné cestě všech importovaných skladebek. Pokud tato cesta není správně nastavena, zajistěte, že v nastaveních pod \"$t(settings.files)\" je zaškrtnuto \"$t(settings.managefolders)\". Poté klikněte na \"$t(settings.changemediapath)\".",
+        "second": "Jakmile bude cesta správná, můžete použít nástroj \"$t(settings.extractcovers)\" ke stažení obalů alb.",
+        "third": "Pokud nebyla knižnica před importováním prázdná, skladebky budou zobrazeny, ale jejich cesty zatím nelze opravit. Tato funkce bude součástí příští aktualizace."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Zde ještě nic není",
+      "importlibrary": {
+        "first": "Importujte soubor library.xml z iTunes nebo Apple Music (obě registrované značky společnosti Apple Inc.)",
+        "second": "V aplikaci iTunes/Apple Music vyberte Soubor > Knihovna > Exportovat knihovnu",
+        "third": "Přetáhněte XML soubor sem"
+      },
+      "importfiles": {
+        "first": "Chcete-li přidat soubory:",
+        "second": "Přetáhněte složku obsahující hudbu nebo audioknihy sem.",
+        "third": "Neberou-li se celé alba, přetáhněte jednotlivé skladebky sem."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Playlisty s více než 1024 skladebkami nelze setřídit."
+    },
+    "llminfo": {
+      "long": "Překlad pro tento jazyk byl vygenerován pomocí LLM.",
+      "short": "LLM překlad",
+      "notice": "Nahláste chyby na GitHub"
+    }
+  }
+}

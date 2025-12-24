@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Nome",
+      "description": "Descrizione",
+      "track_one": "Traccia",
+      "track_other": "Tracce",
+      "title": "Titolo",
+      "artist_one": "Artista",
+      "artist_other": "Artisti",
+      "composer_one": "Compositore",
+      "composer_other": "Compositori",
+      "album_one": "Album",
+      "album_other": "Albums",
+      "albumartist": "Artista dell'album",
+      "genre_one": "Genere",
+      "genre_other": "Generi",
+      "cdnumber": "# CD",
+      "cdnumber_long": "Numero CD",
+      "tracknumber": "# Traccia",
+      "tracknumber_long": "Numero Traccia",
+      "tracklength": "Durata",
+      "playlist_one": "Playlist",
+      "playlist_other": "Playlist",
+      "year": "Anno",
+      "release": "Pubblicato",
+      "release_long": "Data di Pubblicazione",
+      "added": "Aggiunto",
+      "cover": "Copertina",
+      "emptylist": "Lista Vuota",
+      "listisempty": "Questa lista è vuota",
+      "newplaylist": "Nuova Playlist",
+      "mediapath": "Percorso Media",
+      "present": "presente",
+      "save": "Salva",
+      "abort": "Annulla",
+      "yes": "Sì",
+      "no": "No",
+      "close": "Chiudi",
+      "delete": "Elimina",
+      "system": "Sistema"
+    },
+    "viewselect": {
+      "recents": "Aggiunti di recente",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Sfondo",
+      "background_active": "Sfondo Attivo",
+      "background_hover": "Interazione Sfondo",
+      "background_button": "Pulsante Sfondo",
+      "border": "Bordo",
+      "accent": "Accento Input",
+      "warn": "Avviso",
+      "text": "Testo",
+      "text_dim": "Testo Sbiadito",
+      "text_highlight": "Testo Evidenziato",
+      "shadow": "Ombra"
+    },
+    "contextmenu": {
+      "play": "Riproduci",
+      "playrandom": "Riproduci Casualmente",
+      "playnext": "Riproduci Dopo",
+      "addqueue": "Aggiungi alla Coda",
+      "addplaylist": "Aggiungi alla Playlist",
+      "showartist": "Mostra Artista",
+      "showgenre": "Mostra Genere",
+      "showalbum": "Mostra Album",
+      "showcomposer": "Mostra Compositore",
+      "showplaylist": "Mostra Playlist",
+      "showlyrics": "Mostra Testo",
+      "openpath": "Apri Percorso Contenente",
+      "showsimilar": "Mostra Simili",
+      "rating": "Valuta",
+      "info": "Informazioni",
+      "edit": "Modifica",
+      "delete": "Elimina",
+      "extractcover": "Estrai Copertina"
+    },
+    "edit": {
+      "cannotedit": "Questi dati non possono essere modificati",
+      "editalbum": "Modifica Album",
+      "editartist": "Modifica Artista",
+      "editcomposer": "Modifica Compositore",
+      "editgenre": "Modifica Genere",
+      "editplaylist": "Modifica Playlist",
+      "newplaylist": "Nuova Playlist",
+      "edittrack": "Modifica Traccia",
+      "sort_album": "Ordina Titolo"
+    },
+    "import": {
+      "importlibrary": "Importa Libreria?"
+    },
+    "mediapath": {
+      "currentmediapath": "Percorso Media Correnti",
+      "draganddroppath": "Per cambiare, trascina e rilascia la cartella in questa finestra",
+      "newmediapath": "Nuovo Percorso Media",
+      "explain": "Aggiorna il percorso di tutti i file multimediali trovati nel percorso sopra indicato. I file non verranno copiati o spostati, devi farlo manualmente."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Crea Nuova Playlist",
+      "namenewplaylist": "Nome Nuova Playlist"
+    },
+    "queue": {
+      "queue": "Coda",
+      "history": "Storico"
+    },
+    "settings": {
+      "settings": "Impostazioni",
+      "general": "Generali",
+      "playback": "Riproduzione",
+      "files": "File",
+      "tools": "Strumenti",
+      "theme": {
+        "theme": "Tema",
+        "system": "Sistema",
+        "dark": "Scuro",
+        "light": "Chiaro",
+        "custom": "Personalizzato",
+        "editcolors": "Modifica Colori",
+        "resetlight": "Reimposta Chiaro",
+        "resetdark": "Reimposta Scuro"
+      },
+      "startupview": "Vista di Avvio",
+      "language": "Lingua",
+      "searchforupdates": "Cerca Aggiornamenti Automaticamente",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Cambia Percorso Media",
+      "managefolders": "Gestisci File Media",
+      "managefolders_explain_active": "Aggiungendo i media, questi verranno copiati nelle sottocartelle di Artista dell'album e Titolo album.",
+      "managefolders_explain_inactive": "Aggiungendo i media, anmutunes salva il loro percorso attuale.",
+      "copynotcopiedmedia": "Copiare Media Non Copiati (non cancella file)",
+      "allowdelete": "Permetti Cancellazione da Anmutunes",
+      "allowdelete_active": "Le voci dal database possono essere cancellate.",
+      "allowdelete_inactive": "Non c'è modo di cancellare le voci.",
+      "allowdeletefiles": "Permetti Cancellazione dei File",
+      "allowdeletefiles_active": "Su richiesta verranno cancellati anche i file corrispondenti.",
+      "allowdeletefiles_inactive": "Non c'è modo di cancellare i file da anmutunes.",
+      "extractcovers": "Estrai Copertine Mancanti",
+      "extractcovers_explain": "Verifica i metadati dei brani degli album senza copertina. La prima copertina trovata nei metadati verrà estratta.",
+      "showmissingtracks": "Mostra Tracce Mancanti",
+      "showmissingtracks_explain": "Mostra un riepilogo di tutte le tracce che non possono essere trovate. Nel riepilogo è possibile cercare queste in altri luoghi.",
+      "standardisenames": "Standardizza Nomi",
+      "standardisenames_explain": "Consente di standardizzare i nomi degli album, artisti, compositori e generi.",
+      "extractmetadata": "Estrai Metadati",
+      "extractmetadata_explain": "Estrazione dei metadati per ogni traccia. Le modifiche manuali verranno sovrascritte.",
+      "support_please": "Se ti piace anmutunes mi farebbe piacere una donazione",
+      "updatesarehere": "Gli aggiornamenti si trovano qui:"
+    },
+    "setup": {
+      "setup": "Configurazione",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Questa cartella verrà cercata all'avvio di anmutunes per nuovi file.",
+      "searchforupdates_active_explain": "Se una nuova versione è disponibile, ci sarà un avviso.",
+      "searchforupdates_inactive_explain": "Non viene cercato nessun aggiornamento."
+    },
+    "tutorial": {
+      "tutorial": "Tutorial",
+      "ccmessage": "Tutti i file utilizzati nel tutorial sono sotto licenza Creative Commons.",
+      "attributions": "Tutte le attribuzioni possono essere trovate al seguente link:"
+    },
+    "sections": {
+      "today": "Oggi",
+      "lastweek": "Settimana Scorsa",
+      "lastmonth": "Mese Scorso",
+      "lastthreemonths": "Ultimi 3 Mesi",
+      "lastsixmonths": "Ultimi 6 Mesi",
+      "thisyear": "Quest'Anno"
+    },
+    "times": {
+      "year_one": "Anno",
+      "year_other": "Anni",
+      "year_short": "A",
+      "month_one": "Mese",
+      "month_other": "Mesi",
+      "month_short": "M",
+      "week_one": "Settimana",
+      "week_other": "Settimane",
+      "week_short": "S",
+      "day_one": "Giorno",
+      "day_other": "Giorni",
+      "day_short": "G",
+      "hour_one": "Ora",
+      "hour_other": "Ore",
+      "hour_short": "h",
+      "minute_one": "Minuto",
+      "minute_other": "Minuti",
+      "minute_short": "m",
+      "second_one": "Secondo",
+      "second_other": "Secondi",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "Copertine in estrazione",
+      "coverextract_done": "Copertine estratte",
+      "libraryimport_work": "Importazione biblioteca in corso",
+      "libraryimport_done": "Biblioteca importata",
+      "fileimport_work": "Importazione file in corso",
+      "fileimport_done": "File importati",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Eliminazione completata",
+      "updatetracks_work": "Modifica delle tracce in corso",
+      "updatetracks_done": "Modifica completata",
+      "updatealbum_work": "Modifica album in corso",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Elimina l'album e tutte le tracce?",
+      "artistandtracks": "Elimina tutte le tracce di questo artista, anche quelle che appartengono ad album di altri artisti?",
+      "composerandtracks": "Elimina tutte le tracce di questo compositore, indipendentemente dagli album a cui appartengono?",
+      "genreandtracks": "Elimina tutte le tracce appartenenti a questo genere, indipendentemente dagli album a cui appartengono?",
+      "track": "Elimina la traccia sopra indicata?",
+      "playlist": "Elimina la playlist sopra indicata? Nessuna traccia verrà eliminata!",
+      "deleteincludingfiles": "$t(common.delete), inclusi i file"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Se anmutunes era vuoto prima, la tua cartella multimediale è stata cambiata. Corrisponde ora al percorso comune più lungo di tutte le tracce importate. Se questo percorso non è corretto, assicurati che nella sezione \"$t(settings.files)\" ci sia una spunta su \"$t(settings.managefolders)\". Poi puoi cliccare su \"$t(settings.changemediapath)\".",
+        "second": "Una volta che il percorso è corretto, puoi utilizzare lo strumento \"$t(settings.extractcovers)\" per caricare le copertine degli album.",
+        "third": "Se anmutunes non era vuoto, le tracce verranno visualizzate, ma attualmente non è possibile correggere il loro percorso. Questa funzionalità sarà inclusa nel prossimo aggiornamento."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Sembra che qui non ci sia nulla",
+      "importlibrary": {
+        "first": "Importa una library.xml da iTunes o Apple Music (entrambi marchi registrati di Apple Inc.)",
+        "second": "In iTunes/Apple Music clicca File > Libreria > Esporta libreria",
+        "third": "Trascina il file XML e rilascialo qui"
+      },
+      "importfiles": {
+        "first": "Per aggiungere file:",
+        "second": "Trascina una cartella contenente musica o audiolibri e rilasciala qui.",
+        "third": "Oppure fai lo stesso per singole tracce."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Le playlist con più di 1024 tracce non possono essere ordinate."
+    },
+    "llminfo": {
+      "long": "La traduzione per questa lingua è stata generata da un LLM.",
+      "short": "Traduzione LLM",
+      "notice": "Crea un' issue su GitHub per gli errori"
+    }
+  }
+}

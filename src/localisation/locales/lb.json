@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Namm",
+      "description": "Beschreiwung",
+      "track_one": "Titel",
+      "track_other": "Titler",
+      "title": "Titel",
+      "artist_one": "Kënnert",
+      "artist_other": "Kënneren",
+      "composer_one": "Komponist",
+      "composer_other": "Komponisten",
+      "album_one": "Album",
+      "album_other": "Alben",
+      "albumartist": "Album Kënnert",
+      "genre_one": "Genre",
+      "genre_other": "Genres",
+      "cdnumber": "CD #",
+      "cdnumber_long": "CD Nummer",
+      "tracknumber": "Titel-Nummer",
+      "tracknumber_long": "Titel-Nummer",
+      "tracklength": "Lengk",
+      "playlist_one": "Wiedergabelëscht",
+      "playlist_other": "Wiedergabelëschen",
+      "year": "Joer",
+      "release": "Veréiësst",
+      "release_long": "Veréiësungsdatum",
+      "added": "Zogefüegt",
+      "cover": "Cover",
+      "emptylist": "Lëscht Leeren",
+      "listisempty": "Dëss Lëscht ass leer",
+      "newplaylist": "Nei Wiedergabelëscht",
+      "mediapath": "Mediaordner",
+      "present": "no moment",
+      "save": "Sparen",
+      "abort": "Abbréchen",
+      "yes": "Jo",
+      "no": "Nee",
+      "close": "Zoumaachen",
+      "delete": "Läschen",
+      "system": "System"
+    },
+    "viewselect": {
+      "recents": "Zu Lëtzthin Zogefügt",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Hintergrund",
+      "background_active": "Aktiv Hinnergrund",
+      "background_hover": "Hintergrund Interaktion",
+      "background_button": "Hintergrund Knopp",
+      "border": "Rand",
+      "accent": "Input Akzent",
+      "warn": "Warnung",
+      "text": "Text",
+      "text_dim": "Gedimmten Text",
+      "text_highlight": "Texthervorsetzung",
+      "shadow": "Schatten"
+    },
+    "contextmenu": {
+      "play": "Spéitern",
+      "playrandom": "Zufälligs Spéitern",
+      "playnext": "Als Nächstes Spéitern",
+      "addqueue": "Zur Warteschlange Zefügen",
+      "addplaylist": "Zur Wiedergabelëscht Zefügen",
+      "showartist": "Gehe zum Kënnert",
+      "showgenre": "Gehe zum Genre",
+      "showalbum": "Gehe zum Album",
+      "showcomposer": "Gehe zum Komponist",
+      "showplaylist": "Gehe zur Wiedergabelëscht",
+      "showlyrics": "Text Zeigen",
+      "openpath": "Öffne Pfad",
+      "showsimilar": "Zeige Ännerech",
+      "rating": "Bewerten",
+      "info": "Info",
+      "edit": "Änderen",
+      "delete": "Läschen",
+      "extractcover": "Cover Extréieren"
+    },
+    "edit": {
+      "cannotedit": "Dëss Datten kënnen net geänert ginn",
+      "editalbum": "Album bierbechten",
+      "editartist": "Kënnter bierbechten",
+      "editcomposer": "Komponist bierbechten",
+      "editgenre": "Genre bierbechten",
+      "editplaylist": "Wiedergabelëscht bierbechten",
+      "newplaylist": "Nei Wiedergabelëscht",
+      "edittrack": "Titel bierbechten",
+      "sort_album": "Titel Sortéieren"
+    },
+    "import": {
+      "importlibrary": "Mediathek Importéieren?"
+    },
+    "mediapath": {
+      "currentmediapath": "Aktuell Media Pfad",
+      "draganddroppath": "Zäit, um änderen, zäit den Ordner hierhin Zéieren an loossméi",
+      "newmediapath": "Nei Media Pfad",
+      "explain": "Dët aktualiséiert d'Pad vun all Medien, déi am obengemäldege Pad zu fannen sinn. D'Dateien ginn net kopéiert oder verschob, dës muss menuell erledgt ginn."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Nei Wiedergabelëscht erofen",
+      "namenewplaylist": "Namm nei Wiedergabelëscht"
+    },
+    "queue": {
+      "queue": "Warteschlange",
+      "history": "Verlauf"
+    },
+    "settings": {
+      "settings": "Instellengen",
+      "general": "Allgemeng",
+      "playback": "Spéitern",
+      "files": "Dateien",
+      "tools": "Tools",
+      "theme": {
+        "theme": "Thema",
+        "system": "System",
+        "dark": "Dunkel",
+        "light": "Hell",
+        "custom": "Individuel",
+        "editcolors": "Farben Änderen",
+        "resetlight": "Zurücksetzen Hell",
+        "resetdark": "Zurücksetzen Dunkle"
+      },
+      "startupview": "Startansicht",
+      "language": "Sprooch",
+      "searchforupdates": "Automatisch nach Updates Suchen",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Mediaordner Änderen",
+      "managefolders": "Medien-Dateien Verwuelen",
+      "managefolders_explain_active": "Beim Zefügen werd Media in Unterordner vum Albumkënnert an Titel kopéiert.",
+      "managefolders_explain_inactive": "Beim Zefügen vun Media speichert de System de aktuell Pfad.",
+      "copynotcopiedmedia": "Net kopéiert Media kopéieren (löscht keng Dateien)",
+      "allowdelete": "Läschen aus anmutunes Erläären",
+      "allowdelete_active": "Eintrag u Kënnert kënne geläscht ginn.",
+      "allowdelete_inactive": "Et gi er kengen Möglikkeite um Eintrag ze läschen.",
+      "allowdeletefiles": "Löschen der Dateien Erläären",
+      "allowdeletefiles_active": "Auf Nachfrage werdend och de entsprechende Dateien geläscht.",
+      "allowdeletefiles_inactive": "Et gi kengen Möglikkeite vun anmutues aus Dateien ze läschen.",
+      "extractcovers": "Fehlende Covers Extréieren",
+      "extractcovers_explain": "Prüft Metadaten vum Titler aus Alben ohne Cover. De erste in de Metadaten gefunn Cover wir extréiert.",
+      "showmissingtracks": "Fehlende Titler Anzeigen",
+      "showmissingtracks_explain": "Zigt eng Iewersicht aller Titler déi net gefunden werden kënnen. An der Iewersicht ass et möglich nach de an andere Ort ze sochen.",
+      "standardisenames": "Namen Vereinheitlichen",
+      "standardisenames_explain": "Ermöglech d'Namen vun Alben, Kënneren, Komponisten, Genres ze vereinheitlichen.",
+      "extractmetadata": "Metadaten Extréieren",
+      "extractmetadata_explain": "Extréiert fir jiddem Titel de Metadaten. Manual änderen werden iwwerschriwwe.",
+      "support_please": "Wann Dir anmutues gefëllt wërd ech mech iwwer e Spënd freuen",
+      "updatesarehere": "Updates finnt mer hei:"
+    },
+    "setup": {
+      "setup": "Setup",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Dëss Ordner gëtt beim Start vun anmutues durchsucht nach neien Dateien.",
+      "searchforupdates_active_explain": "Wann eng nei Version verfügbar ass gëtt de Hinweis gegeb.",
+      "searchforupdates_inactive_explain": "Et wird kënnensgeen nach Updates gesuecht."
+    },
+    "tutorial": {
+      "tutorial": "Tutorial",
+      "ccmessage": "All Dateien déi am Tutorial benotzt ginn, sinn Creative Commons lizenzéiert.",
+      "attributions": "All Attributions finnt mer unter den folgende Link:"
+    },
+    "sections": {
+      "today": "Haut",
+      "lastweek": "Leschter Woch",
+      "lastmonth": "Leschten Mounat",
+      "lastthreemonths": "Leschte 3 Mounaten",
+      "lastsixmonths": "Leschte 6 Mounaten",
+      "thisyear": "Dëst Joer"
+    },
+    "times": {
+      "year_one": "Joer",
+      "year_other": "Joeren",
+      "year_short": "J",
+      "month_one": "Mount",
+      "month_other": "Monater",
+      "month_short": "M",
+      "week_one": "Woch",
+      "week_other": "Wochen",
+      "week_short": "W",
+      "day_one": "Dag",
+      "day_other": "Deeg",
+      "day_short": "D",
+      "hour_one": "Stonn",
+      "hour_other": "Stonnen",
+      "hour_short": "h",
+      "minute_one": "Minutt",
+      "minute_other": "Minutten",
+      "minute_short": "m",
+      "second_one": "Sekonn",
+      "second_other": "Sekonnen",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "Cover ginn extrahéiert",
+      "coverextract_done": "Cover sin extrahéiert giwan",
+      "libraryimport_work": "Bibliojoték gëtt importéiert",
+      "libraryimport_done": "Bibliojoték ass importéiert giwan",
+      "fileimport_work": "Dateien ginn importéiert",
+      "fileimport_done": "Dateien sinn importéiert giwan",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Läschen ass fertig",
+      "updatetracks_work": "Titel ginn bierbechten",
+      "updatetracks_done": "Bierbechtung ass fertig",
+      "updatealbum_work": "Album gëtt bierbechten",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Dat Album an all Titel drouv läschen?",
+      "artistandtracks": "All Titel vum Kënnter läschen, ouni die zu Albemer vun andere Kënnter gehéieren?",
+      "composerandtracks": "All Titel vum Komponist läschen, eeitert wéi se zu welchen Albemer gehooren?",
+      "genreandtracks": "All Titel déi zu dem Genre gehéieren läschen, eeitert wéi se zu welchen Albemer gehooren?",
+      "track": "Den obigen Titel läschen?",
+      "playlist": "De obige Wiedergabelëscht läschen? Et ginn keng Titel geläscht!",
+      "deleteincludingfiles": "$t(common.delete), inklusiv Dateien"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Wann anmutunes davoer leer war, ass déi Medienordner geänert ginn. Hien entspéiert den längsten gemeesamen Pad vun all importéierten Titelen. Wann dës Pad net korrekt ass, géif du sécher dass am Einstellunge unter \"$t(settings.files)\" een Haken gesat ass bei \"$t(settings.managefolders)\". Dueruf kënnt du op \"$t(settings.changemediapath)\" klicken.",
+        "second": "Sobald d'Pad korrekt ass, kënnt dir d\"$t(settings.extractcovers)\" Werkzueg benotzen um d'Alben Cover z'louden.",
+        "third": "Wann anmutunes net leer war ginn die Titel wierkleng anzeegt, meir dee Hien kënne momentan net korrigéiert ginn. Dës Funktionallitéit këmmt am näischte Update."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Duerch hier scheent noch etz nixt z' sinn",
+      "importlibrary": {
+        "first": "Importéier e Mediathek.xml vun iTunes oder Apple Music (beide eingetragene Marken vun Apple Inc.)",
+        "second": "Am iTunes/Apple Music op Ablage > Mediathek > Mediathek exportéieren.",
+        "third": "Zieh einfach d'XML Datei hei."
+      },
+      "importfiles": {
+        "first": "Um Dateien z'fügen:",
+        "second": "Zieh een Ordner déi Musik oder Hörbücher enhält, hei.",
+        "third": "Oder zieh engelen Titelen hei."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Wiedergabelëschten mit méi wéi 1024 Titelen kënnen net sortéiert ginn."
+    },
+    "llminfo": {
+      "long": "D'Übersetzung fir dës Sprooch ass mat engem LLM generéiert giwan.",
+      "short": "LLM Übersetzunge",
+      "notice": "Bei Fehler déi gerne op GitHub meldt"
+    }
+  }
+}

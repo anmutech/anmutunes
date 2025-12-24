@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Nazwa",
+      "description": "Opis",
+      "track_one": "Ścieżka",
+      "track_other": "Ścieżki",
+      "title": "Tytuł",
+      "artist_one": "Artysta",
+      "artist_other": "Artyści",
+      "composer_one": "Kompozytor",
+      "composer_other": "Kompozytorzy",
+      "album_one": "Album",
+      "album_other": "Alba",
+      "albumartist": "Artysta albumu",
+      "genre_one": "Gatunek",
+      "genre_other": "Gatunki",
+      "cdnumber": "Numer CD",
+      "cdnumber_long": "Numer CD",
+      "tracknumber": "Numer ścieżki",
+      "tracknumber_long": "Numer tytułu",
+      "tracklength": "Czas trwania",
+      "playlist_one": "Lista odtwarzania",
+      "playlist_other": "Listy odtwarzania",
+      "year": "Rok",
+      "release": "Data premiery",
+      "release_long": "Data wydania",
+      "added": "Dodane",
+      "cover": "Okładka",
+      "emptylist": "Pusta lista",
+      "listisempty": "Ta lista jest pusta",
+      "newplaylist": "Nowa lista odtwarzania",
+      "mediapath": "Ścieżka mediów",
+      "present": "obecny",
+      "save": "Zapisz",
+      "abort": "Anuluj",
+      "yes": "Tak",
+      "no": "Nie",
+      "close": "Zamknij",
+      "delete": "Usuń",
+      "system": "System"
+    },
+    "viewselect": {
+      "recents": "Ostatnio dodane",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Tło",
+      "background_active": "Aktywne tło",
+      "background_hover": "Interakcja z tłem",
+      "background_button": "Przycisk tła",
+      "border": "Krawędź",
+      "accent": "Akcent wejściowy",
+      "warn": "Ostrzeżenie",
+      "text": "Tekst",
+      "text_dim": "Zmniejszony tekst",
+      "text_highlight": "Podświetlony tekst",
+      "shadow": "Cień"
+    },
+    "contextmenu": {
+      "play": "Odtwórz",
+      "playrandom": "Odtwórz losowo",
+      "playnext": "Odtwórz następny",
+      "addqueue": "Dodaj do kolejki",
+      "addplaylist": "Dodaj do listy odtwarzania",
+      "showartist": "Pokaż artystę",
+      "showgenre": "Pokaż gatunek",
+      "showalbum": "Pokaż album",
+      "showcomposer": "Pokaż kompozytora",
+      "showplaylist": "Pokaż listę odtwarzania",
+      "showlyrics": "Pokaż tekst piosenki",
+      "openpath": "Otwórz zawierającą ścieżkę",
+      "showsimilar": "Pokaż podobne",
+      "rating": "Ocena",
+      "info": "Informacje",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "extractcover": "Eksportuj okładkę"
+    },
+    "edit": {
+      "cannotedit": "Te dane nie mogą zostać edytowane",
+      "editalbum": "Edytuj Album",
+      "editartist": "Edytuj Artystę",
+      "editcomposer": "Edytuj Kompozytora",
+      "editgenre": "Edytuj Gatunek",
+      "editplaylist": "Edytuj Playlistę",
+      "newplaylist": "Nowa Playlista",
+      "edittrack": "Edytuj Utwór",
+      "sort_album": "Sortuj tytuł"
+    },
+    "import": {
+      "importlibrary": "Importuj bibliotekę?"
+    },
+    "mediapath": {
+      "currentmediapath": "Aktualna ścieżka mediów",
+      "draganddroppath": "Aby zmienić, przeciągnij i upuść folder na to okno",
+      "newmediapath": "Nowa ścieżka mediów",
+      "explain": "Aktualizuje ścieżkę wszystkich plików multimedialnych znalezionych w powyższym katalogu. Pliki nie zostaną skopiowane ani przeniesione, musisz to zrobić ręcznie."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Stwórz Nową Playlistę",
+      "namenewplaylist": "Nazwa nowej listy odtwarzania"
+    },
+    "queue": {
+      "queue": "Kolejka",
+      "history": "Historia"
+    },
+    "settings": {
+      "settings": "Ustawienia",
+      "general": "Ogólne",
+      "playback": "Odtwórz",
+      "files": "Pliki",
+      "tools": "Narzędzia",
+      "theme": {
+        "theme": "Motyw",
+        "system": "System",
+        "dark": "Ciemny",
+        "light": "Jasny",
+        "custom": "Niestandardowy",
+        "editcolors": "Edytuj kolory",
+        "resetlight": "Resetuj jasny",
+        "resetdark": "Resetuj ciemny"
+      },
+      "startupview": "Widok startowy",
+      "language": "Język",
+      "searchforupdates": "Automatycznie szukaj aktualizacji",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Zmień ścieżkę mediów",
+      "managefolders": "Zarządzaj plikami multimedialnymi",
+      "managefolders_explain_active": "Dodając media, kopiuje je do podkatalogów na podstawie artysty albumu i tytułu albumu.",
+      "managefolders_explain_inactive": "Podczas dodawania mediów, anmutues zapamiętuje ich aktualną ścieżkę.",
+      "copynotcopiedmedia": "Kopiuj nie skopiowane media (nie usuwa plików)",
+      "allowdelete": "Pozwól na usunięcie z anmutunes",
+      "allowdelete_active": "Można usunąć wpisy z bazy danych.",
+      "allowdelete_inactive": "Nie ma możliwości usunięcia wpisów.",
+      "allowdeletefiles": "Pozwól na usunięcie plików",
+      "allowdeletefiles_active": "Na żądanie, usuń również odpowiednie pliki.",
+      "allowdeletefiles_inactive": "Nie ma możliwości usunięcia plików z anmutunes.",
+      "extractcovers": "Eksportuj brakujące okładki",
+      "extractcovers_explain": "Sprawdza metadane ścieżek z albumów bez okładek. Pierwsze znalezione w metadanych okładki zostaną eksportowane.",
+      "showmissingtracks": "Pokaż brakujące ścieżki",
+      "showmissingtracks_explain": "Pokazuje listę wszystkich ścieżek, które nie zostały znalezione. Możesz wyszukać te ścieżki w innych miejscach.",
+      "standardisenames": "Ujednolicz nazwy",
+      "standardisenames_explain": "Pozwala na ujednolicenie nazw albumów, artystów, kompozytorów i gatunków.",
+      "extractmetadata": "Eksportuj metadane",
+      "extractmetadata_explain": "Eksportuje metadane dla każdej ścieżki. Ręczne zmiany zostaną nadpisane.",
+      "support_please": "Jeśli podoba ci się anmutunes, byłbym wdzięczny za dotację",
+      "updatesarehere": "Aktualizacje znajdują się tutaj:"
+    },
+    "setup": {
+      "setup": "Konfiguracja",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Ten folder jest przeszukiwany przy uruchomieniu anmutunes w poszukiwaniu nowych plików.",
+      "searchforupdates_active_explain": "Jeśli dostępna jest nowa wersja, zostanie wyświetlone powiadomienie.",
+      "searchforupdates_inactive_explain": "Nie będzie wyszukiwania aktualizacji."
+    },
+    "tutorial": {
+      "tutorial": "Tutorial",
+      "ccmessage": "Wszystkie pliki używane w tutorialu są na licencji Creative Commons.",
+      "attributions": "Wszystkie atrybucje można znaleźć pod następującym linkiem:"
+    },
+    "sections": {
+      "today": "Dziś",
+      "lastweek": "Zeszły tydzień",
+      "lastmonth": "Zeszły miesiąc",
+      "lastthreemonths": "Ostatnie 3 miesiące",
+      "lastsixmonths": "Ostatnie 6 miesięcy",
+      "thisyear": "Ten rok"
+    },
+    "times": {
+      "year_one": "Rok",
+      "year_other": "Lata",
+      "year_short": "r",
+      "month_one": "Miesiąc",
+      "month_other": "Miesiące",
+      "month_short": "m",
+      "week_one": "Tydzień",
+      "week_other": "Tygodnie",
+      "week_short": "t",
+      "day_one": "Dzień",
+      "day_other": "Dni",
+      "day_short": "d",
+      "hour_one": "Godzina",
+      "hour_other": "Godziny",
+      "hour_short": "g",
+      "minute_one": "Minuta",
+      "minute_other": "Minuty",
+      "minute_short": "m",
+      "second_one": "Sekunda",
+      "second_other": "Sekundy",
+      "second_short": "s"
+    },
+    "centercontent": {
+      "coverextract_work": "Okładki są ekstrakowane",
+      "coverextract_done": "Okładki zostały wyekstrahowane",
+      "libraryimport_work": "Biblioteka jest importowana",
+      "libraryimport_done": "Biblioteka została zaimportowana",
+      "fileimport_work": "Pliki są importowane",
+      "fileimport_done": "Pliki zostały zaimportowane",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Usuwanie zakończone",
+      "updatetracks_work": "Utwory są edytowane",
+      "updatetracks_done": "Edycja zakończona",
+      "updatealbum_work": "Album jest edytowane",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Usuń album i wszystkie utwory z niego?",
+      "artistandtracks": "Usuń wszystkie utwory tego artysty, również te należące do albumów innych artystów?",
+      "composerandtracks": "Usuń wszystkie utwory tego kompozytora, niezależnie od albumów, do których należą?",
+      "genreandtracks": "Usuń wszystkie utwory z tego gatunku, niezależnie od albumów, do których należą?",
+      "track": "Usuń powyższy utwor?",
+      "playlist": "Usuń powyższą playlistę? Nie zostaną usunięte żadne utwory!",
+      "deleteincludingfiles": "$t(common.delete), wraz z plikami"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Jeśli anmutunes było wcześniej puste, został zmieniony katalog multimedialny. Odpowiada on najdłuższej wspólnej ścieżce wszystkich zaimportowanych utworów. Jeśli ta ścieżka nie jest poprawna, upewnij się, że w ustawieniach pod \"$t(settings.files)\" zaznaczono opcję \"$t(settings.managefoldners)\". Następnie możesz kliknąć na \"$t(settings.changemediapath)\".",
+        "second": "Kiedy ścieżka jest poprawna, można użyć narzędzia \"$t(settings.extractcovers)\" aby załadować okładki albumów.",
+        "third": "Jeśli anmutunes nie było puste, utwory będą wyświetlane, ale ich ścieżka aktualnie nie może zostać skorygowana. Ta funkcjonalność pojawi się w następnej aktualizacji."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Wygląda na to, że tu jeszcze nic nie ma",
+      "importlibrary": {
+        "first": "Importuj plik library.xml z iTunes lub Apple Music (oba znakowane towary Apple Inc.)",
+        "second": "W iTunes/Apple Music kliknij Plik > Biblioteka > Eksport biblioteki",
+        "third": "Przeciągnij plik XML tutaj"
+      },
+      "importfiles": {
+        "first": "Aby dodać pliki:",
+        "second": "Przeciągnij folder zawierający muzykę lub audiobooki i upuść tutaj.",
+        "third": "Lub zrób to samo dla pojedynczych utworów."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "Playlisty z więcej niż 1024 utworami nie mogą być sortowane."
+    },
+    "llminfo": {
+      "long": "Tłumaczenie dla tego języka zostało wygenerowane przez LLM.",
+      "short": "LLM tłumaczenie",
+      "notice": "Zgłoś błędy na GitHub"
+    }
+  }
+}

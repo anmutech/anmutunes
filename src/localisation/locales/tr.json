@@ -1,0 +1,251 @@
+{
+  "translation": {
+    "common": {
+      "name": "Adı",
+      "description": "Açıklama",
+      "track_one": "Parça",
+      "track_other": "Parçalar",
+      "title": "Başlık",
+      "artist_one": "Sanatçı",
+      "artist_other": "Sanatçılar",
+      "composer_one": "Bestselen",
+      "composer_other": "Bestsellenler",
+      "album_one": "Albüm",
+      "album_other": "Albümler",
+      "albumartist": "Albüm Sanatçısı",
+      "genre_one": "Tür",
+      "genre_other": "Türler",
+      "cdnumber": "CD #",
+      "cdnumber_long": "CD Numarası",
+      "tracknumber": "Parça #",
+      "tracknumber_long": "Başlık Numarası",
+      "tracklength": "Süre",
+      "playlist_one": "Oynatma Listesi",
+      "playlist_other": "Oynatma Listeleri",
+      "year": "Yıl",
+      "release": "Yayımlanma",
+      "release_long": "Yayımlanma Tarihi",
+      "added": "Eklendi",
+      "cover": "Kapak",
+      "emptylist": "Boş Liste",
+      "listisempty": "Bu liste boş",
+      "newplaylist": "Yeni Oynatma Listesi",
+      "mediapath": "Medya Yolu",
+      "present": "şimdi",
+      "save": "Kaydet",
+      "abort": "İptal",
+      "yes": "Evet",
+      "no": "Hayır",
+      "close": "Kapat",
+      "delete": "Sil",
+      "system": "Sistem"
+    },
+    "viewselect": {
+      "recents": "Son Eklenenler",
+      "tracks": "$t(common.track_other)",
+      "albums": "$t(common.album_other)",
+      "artists": "$t(common.artist_other)",
+      "composers": "$t(common.composer_other)",
+      "genres": "$t(common.genre_other)",
+      "playlists": "$t(common.playlist_other)"
+    },
+    "coloredit": {
+      "background": "Arkaplan",
+      "background_active": "Arkaplan Aktif",
+      "background_hover": "Arkaplan Etkileşim",
+      "background_button": "Arkaplan Düğme",
+      "border": "Kenar",
+      "accent": "Giriş Vurgusu",
+      "warn": "Uyarı",
+      "text": "Metin",
+      "text_dim": "Koyu Metin",
+      "text_highlight": "Vurgu Metin",
+      "shadow": "Gölge"
+    },
+    "contextmenu": {
+      "play": "Oynat",
+      "playrandom": "Rastgele Oynat",
+      "playnext": "Sonraki",
+      "addqueue": "Kuyruğa Ekle",
+      "addplaylist": "Oynatma Listesine Ekle",
+      "showartist": "Sanatçıyı Göster",
+      "showgenre": "Türü Göster",
+      "showalbum": "Albümü Göster",
+      "showcomposer": "Bestseleni Göster",
+      "showplaylist": "Oynatma Listesini Göster",
+      "showlyrics": "Şarkı Sözlerini Göster",
+      "openpath": "İçeren Yolu Aç",
+      "showsimilar": "Benzerleri Göster",
+      "rating": "Değerlendir",
+      "info": "Bilgi",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "extractcover": "Kapak Çıkar"
+    },
+    "edit": {
+      "cannotedit": "Bu veri düzenlenemez",
+      "editalbum": "Albümü Düzenle",
+      "editartist": "Sanatçıyı Düzenle",
+      "editcomposer": "Besteciyi Düzenle",
+      "editgenre": "Türü Düzenle",
+      "editplaylist": "Çalma Listesini Düzenle",
+      "newplaylist": "Yeni Çalma Liste",
+      "edittrack": "Parçayı Düzenle",
+      "sort_album": "Albümü Sırala"
+    },
+    "import": {
+      "importlibrary": "Kütüphaneyi İçe Aktar?"
+    },
+    "mediapath": {
+      "currentmediapath": "Mevcut Medya Yolu",
+      "draganddroppath": "Değiştirmek için dosyayı bu pencereye sürükleyin ve bırakın",
+      "newmediapath": "Yeni Medya Yolu",
+      "explain": "Yukarıdaki yolun tüm medya dosyalarının yolu güncellenir. Dosyalar kopylanmaz veya taşınmaz, bu manuel olarak yapılır."
+    },
+    "playlistselect": {
+      "createnewplaylist": "Yeni Çalma Liste Oluştur",
+      "namenewplaylist": "Yeni Oynatma Listesi Adı"
+    },
+    "queue": {
+      "queue": "Kuyruk",
+      "history": "Geçmiş"
+    },
+    "settings": {
+      "settings": "Ayarlar",
+      "general": "Genel",
+      "playback": "Oynatma",
+      "files": "Dosyalar",
+      "tools": "Araçlar",
+      "theme": {
+        "theme": "Tema",
+        "system": "Sistem",
+        "dark": "Koyu",
+        "light": "Açık",
+        "custom": "Özel",
+        "editcolors": "Renkleri Düzenle",
+        "resetlight": "Açığı Sıfırla",
+        "resetdark": "Koyusunu Sıfırla"
+      },
+      "startupview": "Başlangıç Görünümü",
+      "language": "Dil",
+      "searchforupdates": "Güncellemeleri Otomatik Arat",
+      "mediapath": "$t(common.mediapath)",
+      "changemediapath": "Medya Yolu Değiştir",
+      "managefolders": "Medya Dosyalarını Yönet",
+      "managefolders_explain_active": "Ekleme yapılırken medyalar Albüm Sanatçısı ve Albüm Adı altındaki klasörlere kopyalanır.",
+      "managefolders_explain_inactive": "Ekleme yapıldığında anmutunes mevcut yollarını kaydeder.",
+      "copynotcopiedmedia": "Kopyalanmayan medyaları kopyala (hiçbir dosya silinmez)",
+      "allowdelete": "Anmutundan Silme İzni",
+      "allowdelete_active": "Veritabanından kayıtlar silinebilir.",
+      "allowdelete_inactive": "Hiçbir kayıt silinemiyor.",
+      "allowdeletefiles": "Dosyaları Silme İzni Ver",
+      "allowdeletefiles_active": "Sorular verilirse karşılık gelen dosyalar da silinir.",
+      "allowdeletefiles_inactive": "Anmutundan dosyalar silinemez.",
+      "extractcovers": "Eksik Kapakları Çıkar",
+      "extractcovers_explain": "Kapaklı albümlerden track metadatalarını kontrol eder. Metadata bulunan ilk kapak çıkarıyor.",
+      "showmissingtracks": "Eksik Parçaları Göster",
+      "showmissingtracks_explain": "Bulunamayan parçaların bir listesini gösterir. Listede bu parçalara diğer yerlerde ara şansı sunar.",
+      "standardisenames": "İsimleri Birleştir",
+      "standardisenames_explain": "Albümler, Sanatçılar, Besteslenler ve Türleri birleştiren bir seçenek sunar.",
+      "extractmetadata": "Metadataları Çıkar",
+      "extractmetadata_explain": "Her track için metadatları çıkarır. Manuel değişiklikler geçersiz kılınır.",
+      "support_please": "Anmutundan memnun olursanız, lütfen bağış yapın",
+      "updatesarehere": "Güncellemeler burada bulunur:"
+    },
+    "setup": {
+      "setup": "Kurulum",
+      "mediapath": "$t(common.mediapath)",
+      "mediapath_explain": "$t(mediapath.draganddroppath)",
+      "mediapath_inactive_explain": "Bu klasör anmutunes başlatıldığında yeni dosyalar için tarar.",
+      "searchforupdates_active_explain": "Yeni bir sürüm mevcutsa bunu bildirir.",
+      "searchforupdates_inactive_explain": "Güncelleme araması yapılamaz."
+    },
+    "tutorial": {
+      "tutorial": "Tutorial",
+      "ccmessage": "Tüm tutorial kullanılan dosyalar Creative Commons lisansı altındadır.",
+      "attributions": "Tüm attributions aşağıdaki bağlantıda bulunabilir:"
+    },
+    "sections": {
+      "today": "Bugün",
+      "lastweek": "Geçen Hafta",
+      "lastmonth": "Geçen Ay",
+      "lastthreemonths": "Son 3 Ay",
+      "lastsixmonths": "Son 6 Ay",
+      "thisyear": "Bu Yıl"
+    },
+    "times": {
+      "year_one": "Yıl",
+      "year_other": "Yıllar",
+      "year_short": "Y",
+      "month_one": "Ay",
+      "month_other": "Aylar",
+      "month_short": "M",
+      "week_one": "Hafta",
+      "week_other": "Haftalar",
+      "week_short": "H",
+      "day_one": "Gün",
+      "day_other": "Günler",
+      "day_short": "G",
+      "hour_one": "Saat",
+      "hour_other": "Saatler",
+      "hour_short": "s",
+      "minute_one": "Dakika",
+      "minute_other": "Dakikalar",
+      "minute_short": "d",
+      "second_one": "Saniye",
+      "second_other": "Saniyeler",
+      "second_short": "sn"
+    },
+    "centercontent": {
+      "coverextract_work": "Kapaklar çıkarılıyor",
+      "coverextract_done": "Kapaklar çıkarılmış",
+      "libraryimport_work": "Kütüphane işleniyor",
+      "libraryimport_done": "Kütüphane işlendi",
+      "fileimport_work": "Dosyalar işleniyor",
+      "fileimport_done": "Dosyalar işlendi",
+      "delete_work": "$t(common.delete)",
+      "delete_done": "Silme tamamlandı",
+      "updatetracks_work": "Parçalar düzenleniyor",
+      "updatetracks_done": "Düzenleme tamamlandı",
+      "updatealbum_work": "Albüm düzenleniyor",
+      "updatealbum_done": "$t(centercontent.updatetracks_done)"
+    },
+    "deletemodal": {
+      "albumsandtracks": "Albümü ve tüm parçaları silmek istediğinize emin misiniz?",
+      "artistandtracks": "Bu sanatçının tüm parçalarını (diğer sanatçıların albümlerine ait olanlar da dahil) silmek istiyor musunuz?",
+      "composerandtracks": "Bu bestecinin tüm parçalarını (hangi albümlere ait olduğu önemsiz) silmek istiyor musunuz?",
+      "genreandtracks": "Bu türdeki tüm parçaları (hangi albümlerde bulunurları önemsiz) silmek istiyor musunuz?",
+      "track": "Üstteki parçayı silmek istediğinize emin misiniz?",
+      "playlist": "Üstteki çalma listesini silmek istiyor musunuz? Hiçbir parça silinmeyecek!",
+      "deleteincludingfiles": "$t(common.delete), dosyaları da dahil"
+    },
+    "notification": {
+      "libraryimport": {
+        "first": "Eğer anmutunes önce boşsa medya dizini değiştirilmiştir. Artık en uzun ortak yola sahip tüm parçaların yolu bu olacaktır. Eğer bu yol yanlışsa, lütfen 'Ayarlar' bölümünde '$t(settings.files)' altında '$t(settings.managefolders)' seçeneğinin işaretlendiğine dikkat edin. Ardından '$t(settings.changemediapath)' butonuna tıklayabilirsiniz.",
+        "second": "Yol doğru ise '$t(settings.extractcovers)' araç kullanarak albüm kapaklarını yükleyebilirsiniz.",
+        "third": "Eğer anmutunes boş değilse parçalar gözükecektir ancak yollar şu anda düzeltilemez. Bu özellik gelecek güncellemede yer alacak."
+      }
+    },
+    "emptyview": {
+      "nothinghere": "Burada hiçbir şey görünmüyor",
+      "importlibrary": {
+        "first": "iTunes veya Apple Music (her ikisi de Apple Inc.'ın tescilli markası) ile 'library.xml' dosyasını içe aktarın.",
+        "second": "iTunes/Apple Music'te Dosya > Kütüphane > Kütüphaneyi Dışa Aktar'a tıklayın.",
+        "third": "XML dosyasını burada bırakın."
+      },
+      "importfiles": {
+        "first": "Dosyalar eklemek için:",
+        "second": "Müzik veya ses kitabı içeren bir klasörü buraya sürükleyin ve bırakın.",
+        "third": "Ve aynı işlemi tek başına parçalarda yapabilirsiniz."
+      }
+    },
+    "playlist": {
+      "cannotmodify1024": "1024'den fazla parça olan çalma listeleri sıralanamaz."
+    },
+    "llminfo": {
+      "long": "Bu dil için çeviri LLM tarafından oluşturulmuştur.",
+      "short": "LLM Çevirisi",
+      "notice": "Hatalar için lütfen GitHub üzerinde bir sorun açıklayın"
+    }
+  }
+}
