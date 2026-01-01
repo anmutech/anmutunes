@@ -1,5 +1,7 @@
 # anmutunes
 
+![anmutunes screenshot](./images/anmutunesLight.png)
+
 anmutunes is an open source app for Linux, macOS, and Windows.
 It is meant as a replacement for the offline functionalities of iTunes\* and Apple Music\* and can import the library.xml file from either.
 Furthermore, through the use of libvlc, anmutunes is able to play any audio format supported by VLC.
@@ -13,7 +15,20 @@ Everything else was programmed by hand by me, with more than 800 hours of work.
 For further development, I would be happy to receive pull requests.
 Alternatively you can support me with a donation through the following link: [PayPal](https://www.paypal.com/donate/?hosted_button_id=4LVGM2LL7WFCQ)
 
-\*iTunes and Apple Music are registered trademarks of Apple Inc.
+- **Linux - macOS - Windows**
+  anmutunes works on many desktop platforms (not tested on any BSD, or on ARM, except macOS).
+
+- **Big Libraries**
+  anmutunes was designed to handle large music collections and has been tested with tens of thousands of tracks, and thousands of albums. Should problems with bigger libraries be detected, please create an [issue](https://github.com/anmutech/anmutunes/issues/new).
+
+- **Light - Dark - Colourful**
+  Enjoy anmutunes' light or dark theme, or your custom colors!
+  ![anmutunes light dark custom screenshot](images/anmutunesLightDarkCustom.png)
+
+- Demo [Video](https://github.com/anmutech/anmutunes/blob/main/static/anmutunes.mp4)
+
+Click here for all [Attributions](static/ATTRIBUTIONS.txt).
+_\*iTunes and Apple Music are registered trademarks of Apple Inc._
 
 ## Installation
 
@@ -26,7 +41,7 @@ Then install the way you would install any other app.
 - "Theme: System" in the settings might not work on Linux, depending on your distro
 - Depending on audio sink and system there might be delays or crackling and stuttering when starting playback/changing tracks. This is a known issue with VLC, and should be fixed in VLC version 4.0
 - Playback position of the current track is not stored if anmutunes is closed while playing
-- clicking on the playback position to seek in a track is sometimes overwritten by a backend message
+- clicking on the playback position to seek in a track is often overwritten by a backend message
 - On macOS, tauri dev does not locate libvlc correctly
 
 ## Development
@@ -128,7 +143,7 @@ The macOS and Windows releases include libvlc, libvlccore and all default vlc pl
 
 The file in static/anmutunes.mp4 is licensed as CC BY-NC-SA 4.0. To view a copy of this licence, visit:
 [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-All music used in the video is either CC BY-NC 4.0 or CC BY-NC-SA 4.0. See [ATTRIBUTIONS](static/ATTRIBUTIONS.txts) for more info.
+All music used in the video is either CC BY-NC 4.0 or CC BY-NC-SA 4.0. See [ATTRIBUTIONS](static/ATTRIBUTIONS.txt) for more info.
 
 The fonts in static/NotoSans are licensed as SIL OPEN FONT LICENSE Version 1.1. See static/fonts/NotoSans/OFL.txt for the licence text.
 The fonts in static/fonts/UbuntuSans are licensed as UBUNTU FONT LICENCE Version 1.0. See static/fonts/UbuntuSans/LICENCE.txt for the licence text.
