@@ -22,7 +22,7 @@ Alternatively you can support me with a donation through the following link: [Pa
   anmutunes was designed to handle large music collections and has been tested with tens of thousands of tracks, and thousands of albums. Should problems with bigger libraries be detected, please create an [issue](https://github.com/anmutech/anmutunes/issues/new).
 
 - **Light - Dark - Colourful**
-  Enjoy anmutunes' light or dark theme, or your custom colors!
+  Enjoy anmutunes' light or dark theme, or your custom colours!
   ![anmutunes light dark custom screenshot](images/anmutunesLightDarkCustom.png)
 
 - Demo [Video](https://github.com/anmutech/anmutunes/blob/main/static/anmutunes.mp4)
